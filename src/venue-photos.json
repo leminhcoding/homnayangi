@@ -1,0 +1,926 @@
+[
+  {
+    "venueId": "bat-dan",
+    "src": "/venues/batdan-front.jpg",
+    "alt": "Phở Gia Truyền Bát Đàn trong bài MIA tháng 7/2026",
+    "kind": "exterior",
+    "source": {
+      "label": "MIA · Bát Đàn",
+      "url": "https://mia.vn/cam-nang-du-lich/pho-bat-dan-pho-gia-truyen-100-nam-tuoi-tai-ha-noi-2638"
+    },
+    "credit": "MIA · Bát Đàn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "nguyet",
+    "src": "/venues/nguyet.jpg",
+    "alt": "Phở gà tại quán Nguyệt trong bài Cổng ATTP Hà Nội",
+    "kind": "dish",
+    "source": {
+      "label": "Cổng ATTP Hà Nội · 10/2026",
+      "url": "https://antoanthucpham.hanoi.gov.vn/quan-pho-ga-noi-tieng-pho-co-ha-noi-tu-vai-chiec-ghe-nhua-den-dia-chi-hut-khach-quoc-te-239261009102607237.htm"
+    },
+    "credit": "Ảnh trong bài về Phở Gà Nguyệt",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "dac-kim",
+    "src": "/venues/dac-kim.jpg",
+    "alt": "Chả nướng tại Bún Chả Đắc Kim",
+    "kind": "dish",
+    "source": {
+      "label": "MICHELIN Guide · Đắc Kim",
+      "url": "https://guide.michelin.com/vn/en/ha-noi/ha-noi_2974158/restaurant/bun-cha-dac-kim"
+    },
+    "credit": "Ảnh quán trên MICHELIN Guide",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "xoi-yen",
+    "src": "/venues/xoi-yen.jpg",
+    "alt": "Phần xôi trên menu Xôi Yến",
+    "kind": "dish",
+    "source": {
+      "label": "Menu Xôi Yến",
+      "url": "https://xoiyen.vn/"
+    },
+    "credit": "Ảnh menu Xôi Yến / Foody",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "huong-mai",
+    "src": "/venues/huong-mai.jpg",
+    "alt": "Phở cuốn trên website Hương Mai",
+    "kind": "brand",
+    "source": {
+      "label": "Hương Mai · website chính thức",
+      "url": "https://phocuon.vn/"
+    },
+    "credit": "Phở cuốn Hương Mai",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "udon-shimizu",
+    "src": "/venues/udon-shimizu.jpg",
+    "alt": "Mặt tiền UDON shimizu, biển số 17 Phan Kế Bính",
+    "kind": "exterior",
+    "source": {
+      "label": "UDON shimizu · website chính thức",
+      "url": "https://www.r-su.co.jp/en/udon/"
+    },
+    "credit": "UDON shimizu",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "hien-anh",
+    "src": "/venues/hien-anh.jpg",
+    "alt": "Tào phớ hoa nhài trên menu của quán",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/tao-pho-hien-anh-nghia-tan-142889"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "vahi",
+    "src": "/venues/vahi.jpg",
+    "alt": "Khúc bạch kem tươi trên menu của quán",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/tiem-che-vahi-tau-hu-khoai-tim-thot-not-dam-cu-nang-khuc-bach-xuan-thuy-140535"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "bami",
+    "src": "/venues/bami.jpg",
+    "alt": "Bánh mì Hội An đặc biệt trên menu của quán",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/banh-mi-bami-bread-81-doi-can-97161"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "kfc-cg",
+    "src": "/venues/kfc-cg.jpg",
+    "alt": "1 Miếng Gà Rán trên menu của quán",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/ga-ran-kfc-cau-giay-56611"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "jollibee-td",
+    "src": "/venues/jollibee-td.jpg",
+    "alt": "1 Miếng gà giòn vui vẻ trên menu của quán",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/ga-ran-va-my-y-jollibee-ec-truong-dinh-ha-noi-125195"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "pho-hang",
+    "src": "/venues/pho-hang.jpg",
+    "alt": "Bún thang đùi trên menu của quán",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/pho-hang-pho-ga-bun-thang-truyen-thong-doi-can-33452"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "co-ninh",
+    "src": "/venues/co-ninh.jpg",
+    "alt": "Bánh đúc nóng truyền thống trên menu của quán",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/bep-co-ninh-banh-duc-nong-an-vat-healthy-hoang-quoc-viet-150410"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "tuyen-huong",
+    "src": "/venues/tuyen-huong.jpg",
+    "alt": "Bánh cuốn chả quế trên menu của quán",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/tuyen-huong-banh-cuon-nong-bun-cha-phan-ba-vanh-98908"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "bao-bao",
+    "src": "/venues/bao-bao.jpg",
+    "alt": "Bánh gạo cay xúc xích trên menu của quán",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/bao-bao-com-tron-va-do-an-han-quoc-sai-dong-54273"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "bun-ahoi",
+    "src": "/venues/bun-ahoi.jpg",
+    "alt": "Bún thang trên menu của quán",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/bun-ahoi-bun-doc-mung-bun-thang-lo-duc-131326"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "banh-cuon-194",
+    "src": "/venues/banh-cuon-194.jpg",
+    "alt": "Ảnh bìa Bánh Cuốn Nóng 194 - Quán Thánh",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh bìa quán",
+      "url": "https://food.be.com.vn/ha-noi/banh-cuon-nong-194-quan-thanh-140852"
+    },
+    "credit": "beFood · ảnh bìa quán",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "nollowa-hc",
+    "src": "/venues/nollowa-hc.jpg",
+    "alt": "Ảnh bìa Nollowa Chicken - Hàng Cót",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh bìa quán",
+      "url": "https://food.be.com.vn/ha-noi/nollowa-chicken-hang-cot-98240"
+    },
+    "credit": "beFood · ảnh bìa quán",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "pho-ga-cham",
+    "src": "/venues/pho-ga-cham.jpg",
+    "alt": "Phở Gà Châm trong hồ sơ du lịch Ba Đình",
+    "kind": "dish",
+    "source": {
+      "label": "visitbadinh.com.vn",
+      "url": "https://visitbadinh.com.vn/vi/restaurant/details/pho-ga-cham-16"
+    },
+    "credit": "visitbadinh.com.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "mien-luon-chan-cam",
+    "src": "/venues/mien-luon-chan-cam.jpg",
+    "alt": "Miến Lươn Chân Cầm trong phóng sự về quán",
+    "kind": "exterior",
+    "source": {
+      "label": "afamily.vn",
+      "url": "https://afamily.vn/quan-mien-luon-40-tuoi-2-nam-lien-tiep-duoc-michelin-guide-goi-ten-khach-phai-doi-20-phut-moi-duoc-an-mon-gia-truyen-236260607094649363.chn"
+    },
+    "credit": "afamily.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "banh-mi-25",
+    "src": "/venues/banh-mi-25.jpg",
+    "alt": "Bánh Mì 25 trong phóng sự VNA năm 2020",
+    "kind": "exterior",
+    "source": {
+      "label": "vietnam.vnanet.vn",
+      "url": "https://vietnam.vnanet.vn/vietnamese/tin-tuc/thuong-thuc-banh-mi-25-219624.html"
+    },
+    "credit": "vietnam.vnanet.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "huong-lien",
+    "src": "/venues/huong-lien.jpg",
+    "alt": "Bún chả Hương Liên trong bài VnExpress tháng 8/2026",
+    "kind": "dish",
+    "source": {
+      "label": "vnexpress.net",
+      "url": "https://vnexpress.net/5-quan-bun-cha-du-khach-nen-thu-khi-den-ha-noi-dip-2-9-5114839.html"
+    },
+    "credit": "vnexpress.net",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "long-vi-dung",
+    "src": "/venues/long-vi-dung.jpg",
+    "alt": "Nộm tại Long Vi Dung trong bài Kênh14 tháng 6/2026",
+    "kind": "dish",
+    "source": {
+      "label": "kenh14.vn",
+      "url": "https://kenh14.vn/diem-danh-3-quan-nom-ngon-o-ha-noi-gia-tu-7000-dong-chieu-nao-cung-dong-kin-khach-xep-hang-215260627172305897.chn"
+    },
+    "credit": "kenh14.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "banh-tom",
+    "src": "/venues/banh-tom.jpg",
+    "alt": "Nhà hàng Bánh Tôm Hồ Tây trên cổng du lịch Hà Nội",
+    "kind": "exterior",
+    "source": {
+      "label": "myhanoi.vn",
+      "url": "https://myhanoi.vn/vi/nhahangbanhtomho"
+    },
+    "credit": "myhanoi.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "banh-gio",
+    "src": "/venues/banh-gio.jpg",
+    "alt": "Bánh Giò Hồ Tây trên cổng du lịch Hà Nội",
+    "kind": "dish",
+    "source": {
+      "label": "myhanoi.vn",
+      "url": "https://myhanoi.vn/vi/banhgiohotay"
+    },
+    "credit": "myhanoi.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "bun-cha-ta",
+    "src": "/venues/bun-cha-ta.jpg",
+    "alt": "Ảnh phục vụ tại Bún Chả Ta",
+    "kind": "dish",
+    "source": {
+      "label": "Bún Chả Ta · website chính thức",
+      "url": "https://bunchata.com/menu-bun-cha-ta.html"
+    },
+    "credit": "Bún Chả Ta · website chính thức",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "don-hk",
+    "src": "/venues/don-brand.jpg",
+    "alt": "Gà rán trên website Don Chicken Hà Nội",
+    "kind": "brand",
+    "source": {
+      "label": "Don Chicken Hà Nội · website chính thức",
+      "url": "https://donchickenhanoi.vn/vn/thuc-don.html"
+    },
+    "credit": "Don Chicken Hà Nội · website chính thức",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "don-tx",
+    "src": "/venues/don-brand.jpg",
+    "alt": "Gà rán trên website Don Chicken Hà Nội",
+    "kind": "brand",
+    "source": {
+      "label": "Don Chicken Hà Nội · website chính thức",
+      "url": "https://donchickenhanoi.vn/vn/thuc-don.html"
+    },
+    "credit": "Don Chicken Hà Nội · website chính thức",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "don-cg",
+    "src": "/venues/don-brand.jpg",
+    "alt": "Gà rán trên website Don Chicken Hà Nội",
+    "kind": "brand",
+    "source": {
+      "label": "Don Chicken Hà Nội · website chính thức",
+      "url": "https://donchickenhanoi.vn/vn/thuc-don.html"
+    },
+    "credit": "Don Chicken Hà Nội · website chính thức",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "don-ntl",
+    "src": "/venues/don-brand.jpg",
+    "alt": "Gà rán trên website Don Chicken Hà Nội",
+    "kind": "brand",
+    "source": {
+      "label": "Don Chicken Hà Nội · website chính thức",
+      "url": "https://donchickenhanoi.vn/vn/thuc-don.html"
+    },
+    "credit": "Don Chicken Hà Nội · website chính thức",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "don-th",
+    "src": "/venues/don-brand.jpg",
+    "alt": "Gà rán trên website Don Chicken Hà Nội",
+    "kind": "brand",
+    "source": {
+      "label": "Don Chicken Hà Nội · website chính thức",
+      "url": "https://donchickenhanoi.vn/vn/thuc-don.html"
+    },
+    "credit": "Don Chicken Hà Nội · website chính thức",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "don-hd",
+    "src": "/venues/don-brand.jpg",
+    "alt": "Gà rán trên website Don Chicken Hà Nội",
+    "kind": "brand",
+    "source": {
+      "label": "Don Chicken Hà Nội · website chính thức",
+      "url": "https://donchickenhanoi.vn/vn/thuc-don.html"
+    },
+    "credit": "Don Chicken Hà Nội · website chính thức",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "don-dd",
+    "src": "/venues/don-brand.jpg",
+    "alt": "Gà rán trên website Don Chicken Hà Nội",
+    "kind": "brand",
+    "source": {
+      "label": "Don Chicken Hà Nội · website chính thức",
+      "url": "https://donchickenhanoi.vn/vn/thuc-don.html"
+    },
+    "credit": "Don Chicken Hà Nội · website chính thức",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "don-th2",
+    "src": "/venues/don-brand.jpg",
+    "alt": "Gà rán trên website Don Chicken Hà Nội",
+    "kind": "brand",
+    "source": {
+      "label": "Don Chicken Hà Nội · website chính thức",
+      "url": "https://donchickenhanoi.vn/vn/thuc-don.html"
+    },
+    "credit": "Don Chicken Hà Nội · website chính thức",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "anh-vu-gv",
+    "src": "/venues/anh-vu.jpg",
+    "alt": "Chả cá trên menu chính thức của Anh Vũ",
+    "kind": "brand",
+    "source": {
+      "label": "Chả Cá Anh Vũ · website chính thức",
+      "url": "https://chacaanhvu.vn/"
+    },
+    "credit": "Chả Cá Anh Vũ · website chính thức",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "anh-vu-th",
+    "src": "/venues/anh-vu.jpg",
+    "alt": "Chả cá trên menu chính thức của Anh Vũ",
+    "kind": "brand",
+    "source": {
+      "label": "Chả Cá Anh Vũ · website chính thức",
+      "url": "https://chacaanhvu.vn/"
+    },
+    "credit": "Chả Cá Anh Vũ · website chính thức",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "anh-vu-hd",
+    "src": "/venues/anh-vu.jpg",
+    "alt": "Chả cá trên menu chính thức của Anh Vũ",
+    "kind": "brand",
+    "source": {
+      "label": "Chả Cá Anh Vũ · website chính thức",
+      "url": "https://chacaanhvu.vn/"
+    },
+    "credit": "Chả Cá Anh Vũ · website chính thức",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "anh-vu-nkt",
+    "src": "/venues/anh-vu.jpg",
+    "alt": "Chả cá trên menu chính thức của Anh Vũ",
+    "kind": "brand",
+    "source": {
+      "label": "Chả Cá Anh Vũ · website chính thức",
+      "url": "https://chacaanhvu.vn/"
+    },
+    "credit": "Chả Cá Anh Vũ · website chính thức",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "anh-vu-tx",
+    "src": "/venues/anh-vu.jpg",
+    "alt": "Chả cá trên menu chính thức của Anh Vũ",
+    "kind": "brand",
+    "source": {
+      "label": "Chả Cá Anh Vũ · website chính thức",
+      "url": "https://chacaanhvu.vn/"
+    },
+    "credit": "Chả Cá Anh Vũ · website chính thức",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "pho-thin-lo-duc",
+    "src": "/venues/pho-thin-lo-duc.jpg",
+    "alt": "Phở bò tái lăn Phở Thìn Lò Đúc · Toàn Vũ / Dân trí",
+    "kind": "dish",
+    "source": {
+      "label": "dantri.com.vn",
+      "url": "https://dantri.com.vn/du-lich/5-quan-pho-bo-ngon-noi-tieng-o-ha-noi-khach-kho-tinh-cung-kho-noi-loi-che-20241220140808446.htm"
+    },
+    "credit": "dantri.com.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "pho-au-trieu",
+    "src": "/venues/pho-au-trieu.jpg",
+    "alt": "Không gian Phở Ấu Triệu · Toàn Vũ / Dân trí",
+    "kind": "interior",
+    "source": {
+      "label": "dantri.com.vn",
+      "url": "https://dantri.com.vn/du-lich/5-quan-pho-bo-ngon-noi-tieng-o-ha-noi-khach-kho-tinh-cung-kho-noi-loi-che-20241220140808446.htm"
+    },
+    "credit": "dantri.com.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "pho-ho-loi",
+    "src": "/venues/pho-ho-loi.jpg",
+    "alt": "Khu chế biến tại Phở Hồ Lợi · Toàn Vũ / Dân trí",
+    "kind": "interior",
+    "source": {
+      "label": "dantri.com.vn",
+      "url": "https://dantri.com.vn/du-lich/5-quan-pho-bo-ngon-noi-tieng-o-ha-noi-khach-kho-tinh-cung-kho-noi-loi-che-20241220140808446.htm"
+    },
+    "credit": "dantri.com.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "pho-ga-tien",
+    "src": "/venues/pho-ga-tien.jpg",
+    "alt": "Phở Gà Tiến trong phóng sự Dân trí tháng 1/2025",
+    "kind": "interior",
+    "source": {
+      "label": "dantri.com.vn",
+      "url": "https://dantri.com.vn/du-lich/quan-pho-ga-gia-10-nam-khong-doi-khach-tay-khen-ngon-nhat-ha-noi-20250116232254280.htm"
+    },
+    "credit": "dantri.com.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "thang-long",
+    "src": "/venues/thang-long.jpg",
+    "alt": "Không gian Chả Cá Thăng Long Đường Thành trên PasGo",
+    "kind": "dish",
+    "source": {
+      "label": "pasgo.vn",
+      "url": "https://pasgo.vn/nha-hang/nha-hang-cha-ca-thang-long-duong-thanh-hoan-kiem-918"
+    },
+    "credit": "pasgo.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "ba-xuan",
+    "src": "/venues/ba-xuan.jpg",
+    "alt": "Bánh Cuốn Bà Xuân trên Cổng ATTP Hà Nội tháng 10/2026",
+    "kind": "dish",
+    "source": {
+      "label": "antoanthucpham.hanoi.gov.vn",
+      "url": "https://antoanthucpham.hanoi.gov.vn/quan-banh-cuon-tren-doc-hoe-nhai-4-nam-lien-duoc-michelin-vinh-danh-giu-bi-quyet-tu-chiec-coi-da-tram-tuoi-239261021114101369.htm"
+    },
+    "credit": "antoanthucpham.hanoi.gov.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "bach-phuong",
+    "src": "/venues/bach-phuong.jpg",
+    "alt": "Ảnh trong hồ sơ Bún Bò Nam Bộ Bách Phương trên Trip.com",
+    "kind": "dish",
+    "source": {
+      "label": "vn.trip.com",
+      "url": "https://vn.trip.com/restaurant/vietnam/hanoi/detail/bch-phng-bn-b-nam-b-137902053/"
+    },
+    "credit": "vn.trip.com",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "tao-pho-nt",
+    "src": "/venues/tao-pho-nt.jpg",
+    "alt": "Tào phớ tại Anh Em Quán · ảnh Vinpearl được dẫn trong bài Vị An",
+    "kind": "dish",
+    "source": {
+      "label": "nhahangvian.com",
+      "url": "https://nhahangvian.com/bai-viet/quan-tao-pho-o-ha-noi/"
+    },
+    "credit": "nhahangvian.com",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "ba-duc",
+    "src": "/venues/ba-duc.jpg",
+    "alt": "Bún Thang Bà Đức Cầu Gỗ trong bài MIA",
+    "kind": "dish",
+    "source": {
+      "label": "mia.vn",
+      "url": "https://mia.vn/cam-nang-du-lich/bun-thang-cau-go-ha-noi-13970"
+    },
+    "credit": "mia.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "pizza-4ps",
+    "src": "/venues/pizza-4ps.jpg",
+    "alt": "Không gian Pizza 4P’s Tràng Tiền trên website chính thức",
+    "kind": "interior",
+    "source": {
+      "label": "pizza4ps.com",
+      "url": "https://pizza4ps.com/vn/location/922/"
+    },
+    "credit": "pizza4ps.com",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "soybeans",
+    "src": "/venues/soybeans.jpg",
+    "alt": "Tào phớ đậu nành trên menu Soybeans Xuân Thủy",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/soybeans-tao-pho-pudding-xuan-thuy-112306"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "st-cg",
+    "src": "/venues/sinhtu-brand.jpg",
+    "alt": "Cửa hàng Sinh Từ trên website chính thức · ảnh đại diện hệ thống",
+    "kind": "brand",
+    "source": {
+      "label": "bunchasinhtu.vn",
+      "url": "https://bunchasinhtu.vn/"
+    },
+    "credit": "bunchasinhtu.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "st-dd",
+    "src": "/venues/sinhtu-brand.jpg",
+    "alt": "Cửa hàng Sinh Từ trên website chính thức · ảnh đại diện hệ thống",
+    "kind": "brand",
+    "source": {
+      "label": "bunchasinhtu.vn",
+      "url": "https://bunchasinhtu.vn/"
+    },
+    "credit": "bunchasinhtu.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "st-bd",
+    "src": "/venues/sinhtu-brand.jpg",
+    "alt": "Cửa hàng Sinh Từ trên website chính thức · ảnh đại diện hệ thống",
+    "kind": "brand",
+    "source": {
+      "label": "bunchasinhtu.vn",
+      "url": "https://bunchasinhtu.vn/"
+    },
+    "credit": "bunchasinhtu.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "st-hd",
+    "src": "/venues/sinhtu-brand.jpg",
+    "alt": "Cửa hàng Sinh Từ trên website chính thức · ảnh đại diện hệ thống",
+    "kind": "brand",
+    "source": {
+      "label": "bunchasinhtu.vn",
+      "url": "https://bunchasinhtu.vn/"
+    },
+    "credit": "bunchasinhtu.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "st-ntl",
+    "src": "/venues/sinhtu-brand.jpg",
+    "alt": "Cửa hàng Sinh Từ trên website chính thức · ảnh đại diện hệ thống",
+    "kind": "brand",
+    "source": {
+      "label": "bunchasinhtu.vn",
+      "url": "https://bunchasinhtu.vn/"
+    },
+    "credit": "bunchasinhtu.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "st-btl",
+    "src": "/venues/sinhtu-brand.jpg",
+    "alt": "Cửa hàng Sinh Từ trên website chính thức · ảnh đại diện hệ thống",
+    "kind": "brand",
+    "source": {
+      "label": "bunchasinhtu.vn",
+      "url": "https://bunchasinhtu.vn/"
+    },
+    "credit": "bunchasinhtu.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "st-hk",
+    "src": "/venues/sinhtu-brand.jpg",
+    "alt": "Cửa hàng Sinh Từ trên website chính thức · ảnh đại diện hệ thống",
+    "kind": "brand",
+    "source": {
+      "label": "bunchasinhtu.vn",
+      "url": "https://bunchasinhtu.vn/"
+    },
+    "credit": "bunchasinhtu.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "st-cg2",
+    "src": "/venues/sinhtu-brand.jpg",
+    "alt": "Cửa hàng Sinh Từ trên website chính thức · ảnh đại diện hệ thống",
+    "kind": "brand",
+    "source": {
+      "label": "bunchasinhtu.vn",
+      "url": "https://bunchasinhtu.vn/"
+    },
+    "credit": "bunchasinhtu.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "lot-cg",
+    "src": "/venues/lot-brand.jpg",
+    "alt": "Burger tôm trên menu Lotteria · ảnh đại diện thương hiệu",
+    "kind": "brand",
+    "source": {
+      "label": "beFood · menu Lotteria",
+      "url": "https://food.be.com.vn/ha-noi/lotteria-nguyen-khanh-toan-13247"
+    },
+    "credit": "beFood · menu Lotteria",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "lot-tx",
+    "src": "/venues/lot-brand.jpg",
+    "alt": "Burger tôm trên menu Lotteria · ảnh đại diện thương hiệu",
+    "kind": "brand",
+    "source": {
+      "label": "beFood · menu Lotteria",
+      "url": "https://food.be.com.vn/ha-noi/lotteria-nguyen-khanh-toan-13247"
+    },
+    "credit": "beFood · menu Lotteria",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "lot-hm",
+    "src": "/venues/lot-brand.jpg",
+    "alt": "Burger tôm trên menu Lotteria · ảnh đại diện thương hiệu",
+    "kind": "brand",
+    "source": {
+      "label": "beFood · menu Lotteria",
+      "url": "https://food.be.com.vn/ha-noi/lotteria-nguyen-khanh-toan-13247"
+    },
+    "credit": "beFood · menu Lotteria",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "lot-lb",
+    "src": "/venues/lot-brand.jpg",
+    "alt": "Burger tôm trên menu Lotteria · ảnh đại diện thương hiệu",
+    "kind": "brand",
+    "source": {
+      "label": "beFood · menu Lotteria",
+      "url": "https://food.be.com.vn/ha-noi/lotteria-nguyen-khanh-toan-13247"
+    },
+    "credit": "beFood · menu Lotteria",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "lot-hd",
+    "src": "/venues/lot-brand.jpg",
+    "alt": "Burger tôm trên menu Lotteria · ảnh đại diện thương hiệu",
+    "kind": "brand",
+    "source": {
+      "label": "beFood · menu Lotteria",
+      "url": "https://food.be.com.vn/ha-noi/lotteria-nguyen-khanh-toan-13247"
+    },
+    "credit": "beFood · menu Lotteria",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "lot-btl",
+    "src": "/venues/lot-brand.jpg",
+    "alt": "Burger tôm trên menu Lotteria · ảnh đại diện thương hiệu",
+    "kind": "brand",
+    "source": {
+      "label": "beFood · menu Lotteria",
+      "url": "https://food.be.com.vn/ha-noi/lotteria-nguyen-khanh-toan-13247"
+    },
+    "credit": "beFood · menu Lotteria",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "lot-ntl",
+    "src": "/venues/lot-brand.jpg",
+    "alt": "Burger tôm trên menu Lotteria · ảnh đại diện thương hiệu",
+    "kind": "brand",
+    "source": {
+      "label": "beFood · menu Lotteria",
+      "url": "https://food.be.com.vn/ha-noi/lotteria-nguyen-khanh-toan-13247"
+    },
+    "credit": "beFood · menu Lotteria",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "chang-dd",
+    "src": "/venues/chang-brand.jpg",
+    "alt": "Chè Chang Hi trong bài giới thiệu cơ sở Mỹ Đình",
+    "kind": "brand",
+    "source": {
+      "label": "quanche.vn",
+      "url": "https://quanche.vn/che-chang-hi-my-dinh/"
+    },
+    "credit": "quanche.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "chang-hd",
+    "src": "/venues/chang-brand.jpg",
+    "alt": "Chè Chang Hi trong bài giới thiệu cơ sở Mỹ Đình",
+    "kind": "brand",
+    "source": {
+      "label": "quanche.vn",
+      "url": "https://quanche.vn/che-chang-hi-my-dinh/"
+    },
+    "credit": "quanche.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "chang-gl",
+    "src": "/venues/chang-brand.jpg",
+    "alt": "Chè Chang Hi trong bài giới thiệu cơ sở Mỹ Đình",
+    "kind": "brand",
+    "source": {
+      "label": "quanche.vn",
+      "url": "https://quanche.vn/che-chang-hi-my-dinh/"
+    },
+    "credit": "quanche.vn",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "ba-hoanh",
+    "src": "/venues/ba-hoanh.jpg",
+    "alt": "Mặt tiền Bánh Cuốn Bà Hoành trên MICHELIN Guide",
+    "kind": "exterior",
+    "source": {
+      "label": "MICHELIN Guide",
+      "url": "https://guide.michelin.com/vn/en/ha-noi/ha-noi_2974158/restaurant/banh-cuon-ba-hoanh"
+    },
+    "credit": "MICHELIN Guide",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "thanh-van",
+    "src": "/venues/thanh-van.jpg",
+    "alt": "Không gian Bánh Cuốn Thanh Vân trên MICHELIN Guide",
+    "kind": "interior",
+    "source": {
+      "label": "MICHELIN Guide",
+      "url": "https://guide.michelin.com/ph/en/ha-noi/ha-noi_2974158/restaurant/banh-cuon-gia-truyen-thanh-van-hang-ga-street"
+    },
+    "credit": "MICHELIN Guide",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "dong-thinh",
+    "src": "/venues/dong-thinh.jpg",
+    "alt": "Miến lươn Đông Thịnh trên MICHELIN Guide",
+    "kind": "dish",
+    "source": {
+      "label": "MICHELIN Guide",
+      "url": "https://guide.michelin.com/en/ha-noi/ha-noi_2974158/restaurant/mien-luon-%C4%91ong-thinh"
+    },
+    "credit": "MICHELIN Guide",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "co-tuyen",
+    "src": "/venues/co-tuyen.jpg",
+    "alt": "Bún Đậu Cô Tuyến trong bài Kamereo",
+    "kind": "dish",
+    "source": {
+      "label": "Kamereo · Bún Đậu Hàng Khay",
+      "url": "https://kamereo.vn/blog/vi/top-quan-bun-dau-hang-khay-ha-noi/"
+    },
+    "credit": "Kamereo · Bún Đậu Hàng Khay",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "banh-duc",
+    "src": "/venues/banh-duc.jpg",
+    "alt": "Bánh đúc nóng Lê Ngọc Hân",
+    "kind": "dish",
+    "source": {
+      "label": "Vietnammm · Bánh Đúc Lê Ngọc Hân",
+      "url": "https://vietnammm.com/banh-duc-nong-le-ngoc-han/"
+    },
+    "credit": "Vietnammm · Bánh Đúc Lê Ngọc Hân",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "huyen-anh",
+    "src": "/venues/huyen-anh.jpg",
+    "alt": "Cháo Huyền Anh Đồng Xuân trong bài giới thiệu món ăn đêm",
+    "kind": "dish",
+    "source": {
+      "label": "SinhCafe Tour · ảnh trong bài",
+      "url": "https://sinhcafetour.vn/nhung-mon-an-via-he-cho-nguoi-choi-dem-ha-noi.htm"
+    },
+    "credit": "SinhCafe Tour · ảnh trong bài",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "banh-trang-yk",
+    "src": "/venues/banh-trang-yk.jpg",
+    "alt": "Ảnh hồ sơ banh-trang-yk trên Foody",
+    "kind": "dish",
+    "source": {
+      "label": "Foody · hồ sơ quán",
+      "url": "https://www.foody.vn/ha-noi/banh-trang-tron-yet-kieu"
+    },
+    "credit": "Foody · hồ sơ quán",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "che-thach",
+    "src": "/venues/che-thach.jpg",
+    "alt": "Ảnh hồ sơ che-thach trên Foody",
+    "kind": "dish",
+    "source": {
+      "label": "Foody · hồ sơ quán",
+      "url": "https://www.foody.vn/ha-noi/che-thach-quan-linh-dam"
+    },
+    "credit": "Foody · hồ sơ quán",
+    "license": "Bản quyền nguồn ảnh"
+  },
+  {
+    "venueId": "banhduc-phucdong",
+    "src": "/venues/banhduc-phucdong.jpg",
+    "alt": "Bánh đúc trong hồ sơ quán 14A8 khu 918 Phúc Đồng",
+    "kind": "dish",
+    "source": {
+      "label": "Foody · Bánh Đúc Phúc Đồng",
+      "url": "https://www.foody.vn/ha-noi/banh-duc-nong-online-do-an-vat-chan-ga-sa-tac-bun-cha-phuc-dong"
+    },
+    "credit": "Ảnh hồ sơ quán trên Foody",
+    "license": "Bản quyền nguồn ảnh"
+  }
+]

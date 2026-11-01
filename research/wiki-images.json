@@ -1,0 +1,142 @@
+[
+  {
+    "slug": "pho-bo",
+    "language": "en",
+    "pageid": 625565,
+    "ns": 0,
+    "title": "Pho",
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Bowl_of_Meatball_pho.jpg/1280px-Bowl_of_Meatball_pho.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 1000,
+      "height": 750
+    },
+    "pageimage": "Bowl_of_Meatball_pho.jpg"
+  },
+  {
+    "slug": "pho-ga",
+    "language": "vi",
+    "ns": 0,
+    "title": "Phở gà",
+    "missing": ""
+  },
+  {
+    "slug": "bun-cha",
+    "language": "en",
+    "pageid": 30554823,
+    "ns": 0,
+    "title": "Bun cha",
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg/1280px-B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 1000,
+      "height": 665
+    },
+    "pageimage": "Bún_chả_Vietnamese_food.jpg"
+  },
+  {
+    "slug": "bun-thang",
+    "language": "en",
+    "ns": 0,
+    "title": "Bún thang",
+    "missing": ""
+  },
+  {
+    "slug": "bun-dau",
+    "language": "en",
+    "ns": 0,
+    "title": "Bún đậu mắm tôm",
+    "missing": ""
+  },
+  {
+    "slug": "bun-oc",
+    "language": "en",
+    "pageid": 36436294,
+    "ns": 0,
+    "title": "Bún ốc",
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Street_food_in_Hanoi.jpg/1280px-Street_food_in_Hanoi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 1000,
+      "height": 711
+    },
+    "pageimage": "Street_food_in_Hanoi.jpg"
+  },
+  {
+    "slug": "bun-rieu",
+    "language": "en",
+    "pageid": 12908585,
+    "ns": 0,
+    "title": "Bún riêu",
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/B%C3%BAn_ri%C3%AAu_%C4%91%E1%BA%B7c_bi%E1%BB%87t.jpg/1280px-B%C3%BAn_ri%C3%AAu_%C4%91%E1%BA%B7c_bi%E1%BB%87t.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 1000,
+      "height": 750
+    },
+    "pageimage": "Bún_riêu_đặc_biệt.jpg"
+  },
+  {
+    "slug": "cha-ca",
+    "language": "en",
+    "pageid": 63751343,
+    "ns": 0,
+    "title": "Chả cá Lã Vọng",
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng_H%C3%A0_N%E1%BB%99i.jpg/1280px-Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng_H%C3%A0_N%E1%BB%99i.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 1000,
+      "height": 987
+    },
+    "pageimage": "Chả_cá_Lã_Vọng_Hà_Nội.jpg"
+  },
+  {
+    "slug": "banh-cuon",
+    "language": "en",
+    "pageid": 11761489,
+    "ns": 0,
+    "title": "Bánh cuốn",
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/B%C3%A1nh_cu%E1%BB%91n_Thanh_Tr%C3%AC.jpg/1280px-B%C3%A1nh_cu%E1%BB%91n_Thanh_Tr%C3%AC.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 1000,
+      "height": 750
+    },
+    "pageimage": "Bánh_cuốn_Thanh_Trì.jpg"
+  },
+  {
+    "slug": "banh-mi",
+    "language": "en",
+    "pageid": 857888,
+    "ns": 0,
+    "title": "Bánh mì",
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/0/0c/B%C3%A1nh_m%C3%AC_th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 834,
+      "height": 788
+    },
+    "pageimage": "Bánh_mì_thịt_nướng.png"
+  },
+  {
+    "slug": "xoi",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "slug": "pho-cuon",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "slug": "mien-luon",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "slug": "bun-ca",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "slug": "banh-gio",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "slug": "banh-duc",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "slug": "banh-tom",
+    "error": "HTTP Error 429: Too Many Requests"
+  }
+]

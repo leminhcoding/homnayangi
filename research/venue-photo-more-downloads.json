@@ -1,0 +1,197 @@
+[
+  {
+    "venueId": "pho-thin-lo-duc",
+    "src": "/venues/pho-thin-lo-duc.jpg",
+    "alt": "Phở bò tái lăn Phở Thìn Lò Đúc · Toàn Vũ / Dân trí",
+    "kind": "dish",
+    "source": {
+      "label": "dantri.com.vn",
+      "url": "https://dantri.com.vn/du-lich/5-quan-pho-bo-ngon-noi-tieng-o-ha-noi-khach-kho-tinh-cung-kho-noi-loi-che-20241220140808446.htm"
+    },
+    "credit": "dantri.com.vn",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://cdnphoto.dantri.com.vn/W_5esf7I064_xpv3X2ELfW1_-LY=/thumb_w/990/2024/12/20/nhung-quan-pho-bo-co-tieng-o-ha-noidocx-1734678082111.jpeg"
+  },
+  {
+    "venueId": "pho-au-trieu",
+    "src": "/venues/pho-au-trieu.jpg",
+    "alt": "Không gian Phở Ấu Triệu · Toàn Vũ / Dân trí",
+    "kind": "interior",
+    "source": {
+      "label": "dantri.com.vn",
+      "url": "https://dantri.com.vn/du-lich/5-quan-pho-bo-ngon-noi-tieng-o-ha-noi-khach-kho-tinh-cung-kho-noi-loi-che-20241220140808446.htm"
+    },
+    "credit": "dantri.com.vn",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://cdnphoto.dantri.com.vn/Zyfq3pxyulnLSW0ldwTMyWa3H6M=/thumb_w/990/2024/12/20/nhung-quan-pho-bo-co-tieng-o-ha-noidocx-1734678082342.jpeg"
+  },
+  {
+    "venueId": "pho-ho-loi",
+    "src": "/venues/pho-ho-loi.jpg",
+    "alt": "Khu chế biến tại Phở Hồ Lợi · Toàn Vũ / Dân trí",
+    "kind": "interior",
+    "source": {
+      "label": "dantri.com.vn",
+      "url": "https://dantri.com.vn/du-lich/5-quan-pho-bo-ngon-noi-tieng-o-ha-noi-khach-kho-tinh-cung-kho-noi-loi-che-20241220140808446.htm"
+    },
+    "credit": "dantri.com.vn",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://cdnphoto.dantri.com.vn/EuGnK8OlZsbLOVYQBeZTOUFYWMU=/thumb_w/990/2024/12/20/nhung-quan-pho-bo-co-tieng-o-ha-noidocx-1734678082511.jpeg"
+  },
+  {
+    "venueId": "pho-ga-tien",
+    "src": "/venues/pho-ga-tien.jpg",
+    "alt": "Phở Gà Tiến trong phóng sự Dân trí tháng 1/2025",
+    "kind": "exterior",
+    "source": {
+      "label": "dantri.com.vn",
+      "url": "https://dantri.com.vn/du-lich/quan-pho-ga-gia-10-nam-khong-doi-khach-tay-khen-ngon-nhat-ha-noi-20250116232254280.htm"
+    },
+    "credit": "dantri.com.vn",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://cdnphoto.dantri.com.vn/CU3WnGNZplGVhc6QcN8IuMNQDns=/thumb_w/1020/2025/01/16/phogatien-54-1737043929875.jpg?watermark=true"
+  },
+  {
+    "venueId": "thang-long",
+    "src": "/venues/thang-long.jpg",
+    "alt": "Không gian Chả Cá Thăng Long Đường Thành trên PasGo",
+    "kind": "interior",
+    "source": {
+      "label": "pasgo.vn",
+      "url": "https://pasgo.vn/nha-hang/nha-hang-cha-ca-thang-long-duong-thanh-hoan-kiem-918"
+    },
+    "credit": "pasgo.vn",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://pasgo.vn/Upload/anh-chi-tiet/nha-hang-cha-ca-thang-long-duong-thanh-slide-1-normal-12069355172.webp"
+  },
+  {
+    "venueId": "ba-xuan",
+    "src": "/venues/ba-xuan.jpg",
+    "alt": "Bánh Cuốn Bà Xuân trên Cổng ATTP Hà Nội tháng 10/2026",
+    "kind": "exterior",
+    "source": {
+      "label": "antoanthucpham.hanoi.gov.vn",
+      "url": "https://antoanthucpham.hanoi.gov.vn/quan-banh-cuon-tren-doc-hoe-nhai-4-nam-lien-duoc-michelin-vinh-danh-giu-bi-quyet-tu-chiec-coi-da-tram-tuoi-239261021114101369.htm"
+    },
+    "credit": "antoanthucpham.hanoi.gov.vn",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://antoanthucpham.mediacdn.vn/214736799971557376/2026/10/21/image-1792557420638318008931.png"
+  },
+  {
+    "venueId": "bach-phuong",
+    "src": "/venues/bach-phuong.jpg",
+    "alt": "Ảnh trong hồ sơ Bún Bò Nam Bộ Bách Phương trên Trip.com",
+    "kind": "dish",
+    "source": {
+      "label": "vn.trip.com",
+      "url": "https://vn.trip.com/restaurant/vietnam/hanoi/detail/bch-phng-bn-b-nam-b-137902053/"
+    },
+    "credit": "vn.trip.com",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://ak-d.tripcdn.com/images/0106j12000t6jnp8r7098_D_1200_675_R5_Q70.png?proc=autoorient"
+  },
+  {
+    "venueId": "tao-pho-nt",
+    "src": "/venues/tao-pho-nt.jpg",
+    "alt": "Tào phớ tại Anh Em Quán · ảnh Vinpearl được dẫn trong bài Vị An",
+    "kind": "dish",
+    "source": {
+      "label": "nhahangvian.com",
+      "url": "https://nhahangvian.com/bai-viet/quan-tao-pho-o-ha-noi/"
+    },
+    "credit": "nhahangvian.com",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://statics.vinpearl.com/tao-pho-ha-noi-4_1684759568.jpg"
+  },
+  {
+    "venueId": "ba-duc",
+    "src": "/venues/ba-duc.jpg",
+    "alt": "Bún Thang Bà Đức Cầu Gỗ trong bài MIA",
+    "kind": "exterior",
+    "source": {
+      "label": "mia.vn",
+      "url": "https://mia.vn/cam-nang-du-lich/bun-thang-cau-go-ha-noi-13970"
+    },
+    "credit": "mia.vn",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://mia.vn/media/uploads/blog-du-lich/bun-thang-cau-go-1-1702188095.jpg"
+  },
+  {
+    "venueId": "chang-brand",
+    "src": "/venues/chang-brand.jpg",
+    "alt": "Chè Chang Hi trong bài giới thiệu cơ sở Mỹ Đình",
+    "kind": "brand",
+    "source": {
+      "label": "quanche.vn",
+      "url": "https://quanche.vn/che-chang-hi-my-dinh/"
+    },
+    "credit": "quanche.vn",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://quanche.vn/wp-content/uploads/2026/02/che-chang-hi-my-dinh-2.jpg"
+  },
+  {
+    "venueId": "pizza-4ps",
+    "src": "/venues/pizza-4ps.jpg",
+    "alt": "Không gian Pizza 4P’s Tràng Tiền trên website chính thức",
+    "kind": "interior",
+    "source": {
+      "label": "pizza4ps.com",
+      "url": "https://pizza4ps.com/vn/location/922/"
+    },
+    "credit": "pizza4ps.com",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://pizza4ps.com/wp-content/uploads/2023/07/Anh-man-hinh-2023-07-13-luc-10.27.36.png"
+  },
+  {
+    "venueId": "sinhtu-brand",
+    "src": "/venues/sinhtu-brand.jpg",
+    "alt": "Cửa hàng Sinh Từ trên website chính thức · ảnh đại diện hệ thống",
+    "kind": "brand",
+    "source": {
+      "label": "bunchasinhtu.vn",
+      "url": "https://bunchasinhtu.vn/"
+    },
+    "credit": "bunchasinhtu.vn",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://bunchasinhtu.vn/wp-content/uploads/2018/04/2321312.png"
+  },
+  {
+    "venueId": "soybeans",
+    "src": "/venues/soybeans.jpg",
+    "alt": "Tào phớ đậu nành trên menu Soybeans Xuân Thủy",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/soybeans-tao-pho-pudding-xuan-thuy-112306"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://imgproxy.be.com.vn/preset:sharp/rs:fit:1600/q:65/aHR0cDovL21lZGlh/LmJlLmNvbS52bi5z/dG9yYWdlLmdvb2ds/ZWFwaXMuY29tL2Jp/em9wcy9pbWFnZS8z/ODBjNDkyZS00MWM5/LTExZjAtYmJmNS1k/ZWY5NzY2NzFhMDYv/b3JpZ2luYWw.webp"
+  },
+  {
+    "venueId": "che-thach",
+    "src": "/venues/che-thach.jpg",
+    "alt": "Nem chua rán trên menu Chè Thạch Quán Linh Đàm",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/che-thach-quan-ban-dao-linh-dam-101774"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://imgproxy.be.com.vn/preset:sharp/rs:fit:1600/q:65/aHR0cDovL21lZGlh/LmJlLmNvbS52bi5z/dG9yYWdlLmdvb2ds/ZWFwaXMuY29tL2Jp/em9wcy9pbWFnZS9l/MDEyMDU2Mi1kM2Y3/LTExZWYtOGQ4OC0w/Njk1YzZkZjZkMzcv/dGh1bWJuYWls.webp"
+  },
+  {
+    "venueId": "lot-brand",
+    "src": "/venues/lot-brand.jpg",
+    "alt": "Burger tôm trên menu Lotteria · ảnh đại diện thương hiệu",
+    "kind": "brand",
+    "source": {
+      "label": "beFood · menu Lotteria",
+      "url": "https://food.be.com.vn/ha-noi/lotteria-nguyen-khanh-toan-13247"
+    },
+    "credit": "beFood · menu Lotteria",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://imgproxy.be.com.vn/preset:sharp/rs:fit:1600/q:65/aHR0cDovL21lZGlh/LmJlLmNvbS52bi5z/dG9yYWdlLmdvb2ds/ZWFwaXMuY29tL2Jp/em9wcy9pbWFnZS9h/MDU4YTVhZi04NTg1/LTExZjEtODY4My0z/YTM1MTAyOGI2MzMv/dGh1bWJuYWls.webp"
+  }
+]

@@ -1,0 +1,321 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "redirects": [
+      {
+        "from": "Xoi",
+        "to": "Xôi"
+      }
+    ],
+    "pages": {
+      "-1": {
+        "ns": 0,
+        "title": "Bun thang",
+        "missing": ""
+      },
+      "-2": {
+        "ns": 0,
+        "title": "Bun dau mam tom",
+        "missing": ""
+      },
+      "-3": {
+        "ns": 0,
+        "title": "Pho cuon",
+        "missing": ""
+      },
+      "-4": {
+        "ns": 0,
+        "title": "Bánh tôm",
+        "missing": ""
+      },
+      "73820454": {
+        "pageid": 73820454,
+        "ns": 0,
+        "title": "Bánh giò",
+        "images": [
+          {
+            "ns": 6,
+            "title": "File:Banhit.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Bánh giò.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Flag of Vietnam.svg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Foodlogo2.svg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Symbol category class.svg"
+          }
+        ]
+      },
+      "13650019": {
+        "pageid": 13650019,
+        "ns": 0,
+        "title": "Bánh đúc",
+        "images": [
+          {
+            "ns": 6,
+            "title": "File:Banhduc-northern.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Banhduc.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Commons-logo.svg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Symbol category class.svg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Text document with red question mark.svg"
+          }
+        ]
+      },
+      "625565": {
+        "pageid": 625565,
+        "ns": 0,
+        "title": "Pho",
+        "images": [
+          {
+            "ns": 6,
+            "title": "File:Bowl of Meatball pho.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Commons-logo.svg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Flag of Vietnam.svg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Foodlogo2.svg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Gói bánh phở tươi ở siêu thị.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:LL-Q1860 (eng)-Flame, not lame-Pho.wav"
+          },
+          {
+            "ns": 6,
+            "title": "File:La Ranchera Serving Side.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Món ăn Đông Hà, Tết 2022 (phở Lý Quốc sư ở công viên Cọ Dầu) (2).jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Phingredients in Ho Chi Min City.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Pho-Beef-Noodles-2008.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Pho Banh Cuon - Restaurant vietnamien.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Pho in Saigon.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Pho packet.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Phở.oga"
+          },
+          {
+            "ns": 6,
+            "title": "File:Phở khô Hoa Pơ lang tháng 6 năm 2018.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Phở vịt quay.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Phở xào bò.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Saigon style chicken phở.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Seattle Thanh Vi 06.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Soup Bowl (cropped).jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Street vendor pho ga Hanoi.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Symbol category class.svg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Thành phố Nam Định xưa - Nhìn từ trên cao.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Wikibooks-logo.svg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Wiktionary-logo-en-v2.svg"
+          }
+        ]
+      },
+      "17700147": {
+        "pageid": 17700147,
+        "ns": 0,
+        "title": "Xôi",
+        "images": [
+          {
+            "ns": 6,
+            "title": "File:Ambox important.svg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Commons-logo.svg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Cỗ cưới người Việt.JPG"
+          },
+          {
+            "ns": 6,
+            "title": "File:Edit-clear.svg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Flag of Vietnam.svg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Foodlogo2.svg"
+          },
+          {
+            "ns": 6,
+            "title": "File:La Ranchera Serving Side.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Ngày giỗ cha, Hanoi 1945.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:People icon.svg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Question book-new.svg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Symbol category class.svg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Traditional xôi cooker 2.JPG"
+          },
+          {
+            "ns": 6,
+            "title": "File:Xoichien.png"
+          },
+          {
+            "ns": 6,
+            "title": "File:Xôi Gà Trứng Non Lạp Xướng (Sticky rice with chicken and eggs, and chinese sausages).jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Xôi chiên.JPG"
+          },
+          {
+            "ns": 6,
+            "title": "File:Xôi cá rô.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Xôi cúc.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Xôi giò trứng.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Xôi gà.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Xôi gấc.JPG"
+          },
+          {
+            "ns": 6,
+            "title": "File:Xôi khúc.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Xôi lá cẩm.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Xôi mỡ hành.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Xôi ngũ sắc.JPG"
+          },
+          {
+            "ns": 6,
+            "title": "File:Xôi nén 2.png"
+          },
+          {
+            "ns": 6,
+            "title": "File:Xôi nếp của người Thái bản Phe.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Xôi sính lễ năm 2012 (2).JPG"
+          },
+          {
+            "ns": 6,
+            "title": "File:Xôi sắn.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Xôi xéo.jpg"
+          },
+          {
+            "ns": 6,
+            "title": "File:Xôi đỗ xanh.jpg"
+          }
+        ]
+      }
+    }
+  }
+}

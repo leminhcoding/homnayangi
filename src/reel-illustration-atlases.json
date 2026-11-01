@@ -1,0 +1,37 @@
+{
+  "groups": {
+    "src": "/illustrations/reel-groups-v1.webp",
+    "columns": 4,
+    "rows": 3,
+    "width": 1448,
+    "height": 1086
+  },
+  "ingredients": {
+    "src": "/illustrations/reel-ingredients-v1.webp",
+    "columns": 4,
+    "rows": 3,
+    "width": 1448,
+    "height": 1086
+  },
+  "flavors": {
+    "src": "/illustrations/reel-flavors-v1.webp",
+    "columns": 4,
+    "rows": 2,
+    "width": 1774,
+    "height": 887
+  },
+  "textures": {
+    "src": "/illustrations/reel-textures-v1.webp",
+    "columns": 4,
+    "rows": 3,
+    "width": 1448,
+    "height": 1086
+  },
+  "styles": {
+    "src": "/illustrations/reel-styles-v2.webp",
+    "columns": 3,
+    "rows": 2,
+    "width": 1536,
+    "height": 1024
+  }
+}

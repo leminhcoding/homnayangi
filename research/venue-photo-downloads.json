@@ -1,0 +1,340 @@
+[
+  {
+    "venueId": "hien-anh",
+    "src": "/venues/hien-anh.jpg",
+    "alt": "Tào phớ hoa nhài trên menu của quán",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/tao-pho-hien-anh-nghia-tan-142889"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://imgproxy.be.com.vn/preset:sharp/rs:fit:1600/q:65/aHR0cDovL21lZGlh/LmJlLmNvbS52bi5z/dG9yYWdlLmdvb2ds/ZWFwaXMuY29tL2Jp/em9wcy9pbWFnZS83/NzhlNTVkYy0zNjVk/LTExZjEtYjY3ZS05/YWFmMmE3OTg3MDEv/b3JpZ2luYWw.webp"
+  },
+  {
+    "venueId": "vahi",
+    "src": "/venues/vahi.jpg",
+    "alt": "Khúc bạch kem tươi trên menu của quán",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/tiem-che-vahi-tau-hu-khoai-tim-thot-not-dam-cu-nang-khuc-bach-xuan-thuy-140535"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://imgproxy.be.com.vn/preset:sharp/rs:fit:1600/q:65/aHR0cDovL21lZGlh/LmJlLmNvbS52bi5z/dG9yYWdlLmdvb2ds/ZWFwaXMuY29tL2Jl/LWZvb2QvaW1hZ2Uv/NmJhZjZiYmYtN2Y5/OS0xMWYxLThkMTgt/ZGFkYmM2NGY3OTE4/L3RodW1ibmFpbA.webp"
+  },
+  {
+    "venueId": "bami",
+    "src": "/venues/bami.jpg",
+    "alt": "Bánh mì Hội An đặc biệt trên menu của quán",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/banh-mi-bami-bread-81-doi-can-97161"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://imgproxy.be.com.vn/preset:sharp/rs:fit:1600/q:65/aHR0cDovL21lZGlh/LmJlLmNvbS52bi5z/dG9yYWdlLmdvb2ds/ZWFwaXMuY29tL2Jp/em9wcy9pbWFnZS83/MGIzNTM5Yi1jZDAw/LTExZjEtODY4My0z/YTM1MTAyOGI2MzMv/dGh1bWJuYWls.webp"
+  },
+  {
+    "venueId": "kfc-cg",
+    "src": "/venues/kfc-cg.jpg",
+    "alt": "1 Miếng Gà Rán trên menu của quán",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/ga-ran-kfc-cau-giay-56611"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://imgproxy.be.com.vn/preset:sharp/rs:fit:1600/q:65/aHR0cDovL21lZGlh/LmJlLmNvbS52bi5z/dG9yYWdlLmdvb2ds/ZWFwaXMuY29tL2Jl/LWZvb2QvaW1hZ2Uv/ZTZmY2JhOTUtM2Nk/Mi0xMWYxLWI2N2Ut/OWFhZjJhNzk4NzAx/L3RodW1ibmFpbA.webp"
+  },
+  {
+    "venueId": "jollibee-td",
+    "src": "/venues/jollibee-td.jpg",
+    "alt": "1 Miếng gà giòn vui vẻ trên menu của quán",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/ga-ran-va-my-y-jollibee-ec-truong-dinh-ha-noi-125195"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://imgproxy.be.com.vn/preset:sharp/rs:fit:1600/q:65/aHR0cDovL21lZGlh/LmJlLmNvbS52bi5z/dG9yYWdlLmdvb2ds/ZWFwaXMuY29tL2Jl/LWZvb2QvaW1hZ2Uv/MTgxZDMwNzctOWFk/Ni0xMWYxLThkMTgt/ZGFkYmM2NGY3OTE4/L3RodW1ibmFpbA.webp"
+  },
+  {
+    "venueId": "pho-hang",
+    "src": "/venues/pho-hang.jpg",
+    "alt": "Bún thang đùi trên menu của quán",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/pho-hang-pho-ga-bun-thang-truyen-thong-doi-can-33452"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://imgproxy.be.com.vn/preset:sharp/rs:fit:1600/q:65/aHR0cDovL21lZGlh/LmJlLmNvbS52bi5z/dG9yYWdlLmdvb2ds/ZWFwaXMuY29tL2Jl/LWZvb2QvaW1hZ2Uv/NzRmMjkwMTgtNDJh/Yi0xMWVlLWJmYWEt/ODJlNTJiMzRlMTcz/L3RodW1ibmFpbA.webp"
+  },
+  {
+    "venueId": "co-ninh",
+    "src": "/venues/co-ninh.jpg",
+    "alt": "Bánh đúc nóng truyền thống trên menu của quán",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/bep-co-ninh-banh-duc-nong-an-vat-healthy-hoang-quoc-viet-150410"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://imgproxy.be.com.vn/preset:sharp/rs:fit:1600/q:65/aHR0cDovL21lZGlh/LmJlLmNvbS52bi5z/dG9yYWdlLmdvb2ds/ZWFwaXMuY29tL2Jp/em9wcy9pbWFnZS8z/N2FjNWJiOC1iZWUw/LTExZjEtYWQ0Mi0x/NjY0OTZhNmI4YmIv/dGh1bWJuYWls.webp"
+  },
+  {
+    "venueId": "tuyen-huong",
+    "src": "/venues/tuyen-huong.jpg",
+    "alt": "Bánh cuốn chả quế trên menu của quán",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/tuyen-huong-banh-cuon-nong-bun-cha-phan-ba-vanh-98908"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://imgproxy.be.com.vn/preset:sharp/rs:fit:1600/q:65/aHR0cDovL21lZGlh/LmJlLmNvbS52bi5z/dG9yYWdlLmdvb2ds/ZWFwaXMuY29tL2Jp/em9wcy9pbWFnZS9m/Y2MzYTY1NS1hMzIw/LTExZWYtOGQ4OC0w/Njk1YzZkZjZkMzcv/dGh1bWJuYWls.webp"
+  },
+  {
+    "venueId": "bao-bao",
+    "src": "/venues/bao-bao.jpg",
+    "alt": "Bánh gạo cay xúc xích trên menu của quán",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/bao-bao-com-tron-va-do-an-han-quoc-sai-dong-54273"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://imgproxy.be.com.vn/preset:sharp/rs:fit:1600/q:65/aHR0cDovL21lZGlh/LmJlLmNvbS52bi5z/dG9yYWdlLmdvb2ds/ZWFwaXMuY29tL2Jl/LWZvb2QvaW1hZ2Uv/YmE2NzRiNjgtM2M1/ZS0xMWVlLWIyYWYt/M2VhMmUxYzU1MTBi/L3RodW1ibmFpbA.webp"
+  },
+  {
+    "venueId": "che-thach",
+    "src": "/venues/che-thach.jpg",
+    "alt": "Lẩu tok trên menu của quán",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/che-thach-quan-ban-dao-linh-dam-101774"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://imgproxy.be.com.vn/preset:sharp/rs:fit:1600/q:65/aHR0cDovL21lZGlh/LmJlLmNvbS52bi5z/dG9yYWdlLmdvb2ds/ZWFwaXMuY29tL2Jp/em9wcy9pbWFnZS9j/ZDMxNzI2Zi1kNDdk/LTExZWYtODFjYy1k/MjRmZGUxOTg3YTAv/dGh1bWJuYWls.webp"
+  },
+  {
+    "venueId": "bun-ahoi",
+    "src": "/venues/bun-ahoi.jpg",
+    "alt": "Bún thang trên menu của quán",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh menu quán",
+      "url": "https://food.be.com.vn/ha-noi/bun-ahoi-bun-doc-mung-bun-thang-lo-duc-131326"
+    },
+    "credit": "beFood · ảnh menu quán",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://imgproxy.be.com.vn/preset:sharp/rs:fit:1600/q:65/aHR0cDovL21lZGlh/LmJlLmNvbS52bi5z/dG9yYWdlLmdvb2ds/ZWFwaXMuY29tL2Jp/em9wcy9pbWFnZS9m/OWI1MmFlZC1hM2Zh/LTExZjAtYjg0Yi0z/YTRmMmEzN2E5NGUv/b3JpZ2luYWw.webp"
+  },
+  {
+    "venueId": "banh-cuon-194",
+    "src": "/venues/banh-cuon-194.jpg",
+    "alt": "Ảnh bìa Bánh Cuốn Nóng 194 - Quán Thánh",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh bìa quán",
+      "url": "https://food.be.com.vn/ha-noi/banh-cuon-nong-194-quan-thanh-140852"
+    },
+    "credit": "beFood · ảnh bìa quán",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://imgproxy.be.com.vn/preset:sharp/rs:fit:1600/q:75/aHR0cDovL21lZGlh/LmJlLmNvbS52bi5z/dG9yYWdlLmdvb2ds/ZWFwaXMuY29tL2Jp/em9wcy9pbWFnZS80/YzRkOTg0Ni03MDQz/LTExZjEtOGQxOC1k/YWRiYzY0Zjc5MTgv/b3JpZ2luYWw.webp"
+  },
+  {
+    "venueId": "banhduc-phucdong",
+    "src": "/venues/banhduc-phucdong.jpg",
+    "alt": "Ảnh bìa Bánh Đúc Nóng & Đồ Ăn Vặt Phúc Đồng - Khu Tập Thể 918",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh bìa quán",
+      "url": "https://food.be.com.vn/ha-noi/banh-duc-nong-do-an-vat-phuc-dong-khu-tap-the-918-54221"
+    },
+    "credit": "beFood · ảnh bìa quán",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://imgproxy.be.com.vn/preset:sharp/rs:fit:1600/q:75/aHR0cDovL21lZGlh/LmJlLmNvbS52bi5z/dG9yYWdlLmdvb2ds/ZWFwaXMuY29tL2Jp/em9wcy9pbWFnZS8z/YmIxYzE3YS0zMTE5/LTExZWUtODE0Ni04/MjM2NWU1MmE4ZWUv/b3JpZ2luYWw.webp"
+  },
+  {
+    "venueId": "nollowa-hc",
+    "src": "/venues/nollowa-hc.jpg",
+    "alt": "Ảnh bìa Nollowa Chicken - Hàng Cót",
+    "kind": "dish",
+    "source": {
+      "label": "beFood · ảnh bìa quán",
+      "url": "https://food.be.com.vn/ha-noi/nollowa-chicken-hang-cot-98240"
+    },
+    "credit": "beFood · ảnh bìa quán",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://imgproxy.be.com.vn/preset:sharp/rs:fit:1600/q:75/aHR0cDovL21lZGlh/LmJlLmNvbS52bi5z/dG9yYWdlLmdvb2ds/ZWFwaXMuY29tL2Jp/em9wcy9pbWFnZS81/ZjQwOWI0Zi1lM2E0/LTExZjAtOTA2My02/NjQ0OGQ3ODc4MDIv/b3JpZ2luYWw.webp"
+  },
+  {
+    "venueId": "pho-ga-cham",
+    "src": "/venues/pho-ga-cham.jpg",
+    "alt": "Phở Gà Châm trong hồ sơ du lịch Ba Đình",
+    "kind": "exterior",
+    "source": {
+      "label": "visitbadinh.com.vn",
+      "url": "https://visitbadinh.com.vn/vi/restaurant/details/pho-ga-cham-16"
+    },
+    "credit": "visitbadinh.com.vn",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://visitbadinh.com.vn/DataFiles/2023/12/Restaurants/20231213-190556-KjuHAewy.webp"
+  },
+  {
+    "venueId": "mien-luon-chan-cam",
+    "src": "/venues/mien-luon-chan-cam.jpg",
+    "alt": "Miến Lươn Chân Cầm trong phóng sự về quán",
+    "kind": "exterior",
+    "source": {
+      "label": "afamily.vn",
+      "url": "https://afamily.vn/quan-mien-luon-40-tuoi-2-nam-lien-tiep-duoc-michelin-guide-goi-ten-khach-phai-doi-20-phut-moi-duoc-an-mon-gia-truyen-236260607094649363.chn"
+    },
+    "credit": "afamily.vn",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://afamilycdn.com/150157425591193600/2026/6/7/2026-06-06-124503-145904-1780793427901-17807934281421130643866-1780799951966-1780799953147149457273.jpg"
+  },
+  {
+    "venueId": "banh-mi-25",
+    "src": "/venues/banh-mi-25.jpg",
+    "alt": "Bánh Mì 25 trong phóng sự VNA năm 2020",
+    "kind": "exterior",
+    "source": {
+      "label": "vietnam.vnanet.vn",
+      "url": "https://vietnam.vnanet.vn/vietnamese/tin-tuc/thuong-thuc-banh-mi-25-219624.html"
+    },
+    "credit": "vietnam.vnanet.vn",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://imagevietnam.vnanet.vn/Upload/2020/1/14/14012020105305301-1_resize.jpg"
+  },
+  {
+    "venueId": "huong-lien",
+    "src": "/venues/huong-lien.jpg",
+    "alt": "Bún chả Hương Liên trong bài VnExpress tháng 8/2026",
+    "kind": "dish",
+    "source": {
+      "label": "vnexpress.net",
+      "url": "https://vnexpress.net/5-quan-bun-cha-du-khach-nen-thu-khi-den-ha-noi-dip-2-9-5114839.html"
+    },
+    "credit": "vnexpress.net",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://i1-dulich.vnecdn.net/2026/08/29/buncha-1787974135.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=hCNhd9Hja-sN_1eTtUMUuQ"
+  },
+  {
+    "venueId": "long-vi-dung",
+    "src": "/venues/long-vi-dung.jpg",
+    "alt": "Nộm tại Long Vi Dung trong bài Kênh14 tháng 6/2026",
+    "kind": "dish",
+    "source": {
+      "label": "kenh14.vn",
+      "url": "https://kenh14.vn/diem-danh-3-quan-nom-ngon-o-ha-noi-gia-tu-7000-dong-chieu-nao-cung-dong-kin-khach-xep-hang-215260627172305897.chn"
+    },
+    "credit": "kenh14.vn",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://kenh14cdn.com/203336854389633024/2026/6/27/2026-06-27-165803-170856-1782555630856-17825556316991042901317.jpg"
+  },
+  {
+    "venueId": "banh-tom",
+    "src": "/venues/banh-tom.jpg",
+    "alt": "Nhà hàng Bánh Tôm Hồ Tây trên cổng du lịch Hà Nội",
+    "kind": "exterior",
+    "source": {
+      "label": "myhanoi.vn",
+      "url": "https://myhanoi.vn/vi/nhahangbanhtomho"
+    },
+    "credit": "myhanoi.vn",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://dltm-cdn.vnptit3.vn/resources/portal//Images/HNI/Import/636500769650178449_restaurant_nhàhàng_12052017180744158.jpg"
+  },
+  {
+    "venueId": "banh-gio",
+    "src": "/venues/banh-gio.jpg",
+    "alt": "Bánh Giò Hồ Tây trên cổng du lịch Hà Nội",
+    "kind": "exterior",
+    "source": {
+      "label": "myhanoi.vn",
+      "url": "https://myhanoi.vn/vi/banhgiohotay"
+    },
+    "credit": "myhanoi.vn",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://dltm-cdn.vnptit3.vn/resources/portal//Images/HNI/Import/636500769531952416_restaurant_nhàhàng_12142017160852007.jpg"
+  },
+  {
+    "venueId": "anh-vu",
+    "src": "/venues/anh-vu.jpg",
+    "alt": "Chả cá trên menu chính thức của Anh Vũ",
+    "kind": "brand",
+    "source": {
+      "label": "Chả Cá Anh Vũ · website chính thức",
+      "url": "https://chacaanhvu.vn/"
+    },
+    "credit": "Chả Cá Anh Vũ · website chính thức",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://chacaanhvu.vn/catalog/images/danh-muc/cha-ca-1120231023041021.jpg"
+  },
+  {
+    "venueId": "bun-cha-ta",
+    "src": "/venues/bun-cha-ta.jpg",
+    "alt": "Ảnh phục vụ tại Bún Chả Ta",
+    "kind": "interior",
+    "source": {
+      "label": "Bún Chả Ta · website chính thức",
+      "url": "https://bunchata.com/menu-bun-cha-ta.html"
+    },
+    "credit": "Bún Chả Ta · website chính thức",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://bunchata.com/9/bun-cha-ta5.jpg"
+  },
+  {
+    "venueId": "don-brand",
+    "src": "/venues/don-brand.jpg",
+    "alt": "Gà rán trên website Don Chicken Hà Nội",
+    "kind": "brand",
+    "source": {
+      "label": "Don Chicken Hà Nội · website chính thức",
+      "url": "https://donchickenhanoi.vn/vn/thuc-don.html"
+    },
+    "credit": "Don Chicken Hà Nội · website chính thức",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://donchickenhanoi.vn/uploads/danh-muc/1738834155ga-ran.jpg"
+  },
+  {
+    "venueId": "don-hd",
+    "src": "/venues/don-hd.jpg",
+    "alt": "Don Chicken ParkCity trên danh sách cơ sở chính thức",
+    "kind": "exterior",
+    "source": {
+      "label": "Don Chicken Hà Nội · website chính thức",
+      "url": "https://donchickenhanoi.vn/vn/store.html"
+    },
+    "credit": "Don Chicken Hà Nội · website chính thức",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://donchickenhanoi.vn/uploads/store/1738727062don-chicken-parkcity.jpg"
+  },
+  {
+    "venueId": "batdan-front",
+    "src": "/venues/batdan-front.jpg",
+    "alt": "Phở Gia Truyền Bát Đàn trong bài MIA tháng 7/2026",
+    "kind": "exterior",
+    "source": {
+      "label": "MIA · Bát Đàn",
+      "url": "https://mia.vn/cam-nang-du-lich/pho-bat-dan-pho-gia-truyen-100-nam-tuoi-tai-ha-noi-2638"
+    },
+    "credit": "MIA · Bát Đàn",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://mia.vn/media/uploads/blog-du-lich/pho-gia-truyen-bat-dan-2-1785481020.jpg"
+  }
+]

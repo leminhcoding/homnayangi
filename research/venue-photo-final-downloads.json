@@ -1,0 +1,106 @@
+[
+  {
+    "venueId": "ba-hoanh",
+    "src": "/venues/ba-hoanh.jpg",
+    "alt": "Mặt tiền Bánh Cuốn Bà Hoành trên MICHELIN Guide",
+    "kind": "exterior",
+    "source": {
+      "label": "MICHELIN Guide",
+      "url": "https://guide.michelin.com/vn/en/ha-noi/ha-noi_2974158/restaurant/banh-cuon-ba-hoanh"
+    },
+    "credit": "MICHELIN Guide",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://prod-pics.guide.michelin.com/api/public/content/a643315c6bac4e97b84a8da99bd1d850.jpeg?format=jpeg&h=900&w=900"
+  },
+  {
+    "venueId": "thanh-van",
+    "src": "/venues/thanh-van.jpg",
+    "alt": "Không gian Bánh Cuốn Thanh Vân trên MICHELIN Guide",
+    "kind": "interior",
+    "source": {
+      "label": "MICHELIN Guide",
+      "url": "https://guide.michelin.com/ph/en/ha-noi/ha-noi_2974158/restaurant/banh-cuon-gia-truyen-thanh-van-hang-ga-street"
+    },
+    "credit": "MICHELIN Guide",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://prod-pics.guide.michelin.com/api/public/content/ebd8b35b53b54aaa8f08eabde53930de.jpeg?format=jpeg&h=900&w=900"
+  },
+  {
+    "venueId": "dong-thinh",
+    "src": "/venues/dong-thinh.jpg",
+    "alt": "Miến lươn Đông Thịnh trên MICHELIN Guide",
+    "kind": "dish",
+    "source": {
+      "label": "MICHELIN Guide",
+      "url": "https://guide.michelin.com/en/ha-noi/ha-noi_2974158/restaurant/mien-luon-%C4%91ong-thinh"
+    },
+    "credit": "MICHELIN Guide",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://prod-pics.guide.michelin.com/api/public/content/a9671f2dfa954adf874fe84c9c5ee2ac.jpeg?format=jpeg&h=900&w=900"
+  },
+  {
+    "venueId": "co-tuyen",
+    "src": "/venues/co-tuyen.jpg",
+    "alt": "Bún Đậu Cô Tuyến trong bài Kamereo",
+    "kind": "dish",
+    "source": {
+      "label": "Kamereo · Bún Đậu Hàng Khay",
+      "url": "https://kamereo.vn/blog/vi/top-quan-bun-dau-hang-khay-ha-noi/"
+    },
+    "credit": "Kamereo · Bún Đậu Hàng Khay",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://kamereo.vn/blog/wp-content/uploads/2026/10/bun-dau-hang-khay-ha-noi-2.jpg"
+  },
+  {
+    "venueId": "banh-duc",
+    "src": "/venues/banh-duc.jpg",
+    "alt": "Bánh đúc nóng Lê Ngọc Hân",
+    "kind": "dish",
+    "source": {
+      "label": "Vietnammm · Bánh Đúc Lê Ngọc Hân",
+      "url": "https://vietnammm.com/banh-duc-nong-le-ngoc-han/"
+    },
+    "credit": "Vietnammm · Bánh Đúc Lê Ngọc Hân",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://vietnammm.com/wp-content/uploads/2026/08/banh-duc-nong-le-ngoc-han.jpg"
+  },
+  {
+    "venueId": "huyen-anh",
+    "src": "/venues/huyen-anh.jpg",
+    "alt": "Cháo Huyền Anh Đồng Xuân trong bài giới thiệu món ăn đêm",
+    "kind": "dish",
+    "source": {
+      "label": "SinhCafe Tour · ảnh trong bài",
+      "url": "https://sinhcafetour.vn/nhung-mon-an-via-he-cho-nguoi-choi-dem-ha-noi.htm"
+    },
+    "credit": "SinhCafe Tour · ảnh trong bài",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://sinhcafetour.vn/pic/News/images/img-3848-1570069414-2500-1570075214.jpg"
+  },
+  {
+    "venueId": "banh-trang-yk",
+    "src": "/venues/banh-trang-yk.jpg",
+    "alt": "Ảnh hồ sơ banh-trang-yk trên Foody",
+    "kind": "dish",
+    "source": {
+      "label": "Foody · hồ sơ quán",
+      "url": "https://www.foody.vn/ha-noi/banh-trang-tron-yet-kieu"
+    },
+    "credit": "Foody · hồ sơ quán",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://down-vn.img.susercontent.com/vn-11134513-7r98o-lstsa4y66ll0b7"
+  },
+  {
+    "venueId": "che-thach",
+    "src": "/venues/che-thach.jpg",
+    "alt": "Ảnh hồ sơ che-thach trên Foody",
+    "kind": "dish",
+    "source": {
+      "label": "Foody · hồ sơ quán",
+      "url": "https://www.foody.vn/ha-noi/che-thach-quan-linh-dam"
+    },
+    "credit": "Foody · hồ sơ quán",
+    "license": "Bản quyền nguồn ảnh",
+    "original": "https://down-vn.img.susercontent.com/vn-11134513-7r98o-lsu0h5mjzoas08"
+  }
+]

@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+*.tsbuildinfo
+
+.env
+.env.*
+!.env.example
+*.log
+coverage/
+research/*.html
+research/venue-pages/

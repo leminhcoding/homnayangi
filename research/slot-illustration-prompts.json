@@ -1,0 +1,75 @@
+{
+  "createdAt": "2026-11-01",
+  "tool": "Built-in image_gen.imagegen",
+  "mode": "generate",
+  "transparentBackground": true,
+  "prompts": [
+    {
+      "key": "groups",
+      "prompt": "Use case: stylized-concept. Asset type: ONE production sprite atlas image for a Vietnamese food-discovery slot machine web app. Create a consistent set of tactile food pictograms: simplified realistic miniature sculptures, subtly hand-painted, warm vintage bistro / burgundy-and-brass casino aesthetic. More refined and materially believable than emoji, but NOT photographs or realistic complete restaurant dishes. Clear recognisable silhouettes at 60px, broad shapes, minimal details, warm ivory ceramic with natural food colors, soft upper-left studio lighting, gentle shading, no harsh plastic gloss. The background must be genuinely transparent. No text, numbers, letters, logos, flags, frames, coins, circles, borders or visible grid lines. STRICT LAYOUT: equal-size grid cells with all objects centered at exact geometric cell centers; every object entirely inside its cell with at least 20 percent padding; never touch or overlap neighboring cells. One subject per cell, consistent optical size and camera angle. Blank final cells must stay fully transparent. This is an atlas, NOT a finished UI or collage scene. Layout: 4 columns and 3 rows, landscape 4:3 canvas. Row-major cells, exact order:\n1 generic ivory bowl of broth with a small noodle curl and steam (wet dishes);\n2 simple nest of drained thin noodles on a plain shallow saucer (dry noodle dishes);\n3 small covered earthenware casserole with lid slightly raised (braises and skillet dishes);\n4 bamboo steamer containing two simple abstract folded rice parcels (cakes and wraps);\n5 plain small bread roll and a generic pair of bun halves, no fillings (bread and burgers);\n6 ivory rice bowl next to a little mound of sticky grains (rice and sticky rice);\n7 small mesh frying basket with three golden battered morsels (fried and grilled food);\n8 dry pasta curls beside a small wedge of plain tomato flatbread (pasta and pizza);\n9 translucent dessert glass with abstract layers, jelly cubes and coconut milk (sweet desserts);\n10 shallow salad bowl with leafy greens and shredded vegetables (salads and mixed dishes);\n11 ivory soup bowl with a spoon and thick smooth pale contents (porridge and soup);\n12 completely blank."
+    },
+    {
+      "key": "ingredients",
+      "prompt": "Use case: stylized-concept. Asset type: ONE production sprite atlas image for a Vietnamese food-discovery slot machine web app. Create a consistent set of tactile food pictograms: simplified realistic miniature sculptures, subtly hand-painted, warm vintage bistro / burgundy-and-brass casino aesthetic. More refined and materially believable than emoji, but NOT photographs or realistic complete restaurant dishes. Clear recognisable silhouettes at 60px, broad shapes, minimal details, warm ivory ceramic with natural food colors, soft upper-left studio lighting, gentle shading, no harsh plastic gloss. The background must be genuinely transparent. No text, numbers, letters, logos, flags, frames, coins, circles, borders or visible grid lines. STRICT LAYOUT: equal-size grid cells with all objects centered at exact geometric cell centers; every object entirely inside its cell with at least 20 percent padding; never touch or overlap neighboring cells. One subject per cell, consistent optical size and camera angle. Blank final cells must stay fully transparent. This is an atlas, NOT a finished UI or collage scene. Layout: 4 columns and 3 rows, landscape 4:3 canvas. Row-major cells, exact order:\n1 a small raw red marbled beef steak;\n2 an uncooked pale pink chicken drumstick, no skin detail;\n3 two uncooked pale pink pork belly slices with distinct white fat stripes;\n4 one shrimp next to a small silver fish;\n5 a wedge of pale yellow cheese with a few holes;\n6 a carrot, a broccoli floret and leafy greens;\n7 a tiny milk jug beside three almonds;\n8 a mango half and two generic fruit slices;\n9 two tofu cubes and a mushroom;\n10 a whole brown egg and one half boiled egg;\n11 blank;\n12 blank. Ingredients should be clear generic ingredients, never prepared dishes."
+    },
+    {
+      "key": "flavors",
+      "prompt": "Use case: stylized-concept. Asset type: ONE production sprite atlas image for a Vietnamese food-discovery slot machine web app. Create a consistent set of tactile food pictograms: simplified realistic miniature sculptures, subtly hand-painted, warm vintage bistro / burgundy-and-brass casino aesthetic. More refined and materially believable than emoji, but NOT photographs or realistic complete restaurant dishes. Clear recognisable silhouettes at 60px, broad shapes, minimal details, warm ivory ceramic with natural food colors, soft upper-left studio lighting, gentle shading, no harsh plastic gloss. The background must be genuinely transparent. No text, numbers, letters, logos, flags, frames, coins, circles, borders or visible grid lines. STRICT LAYOUT: equal-size grid cells with all objects centered at exact geometric cell centers; every object entirely inside its cell with at least 20 percent padding; never touch or overlap neighboring cells. One subject per cell, consistent optical size and camera angle. Blank final cells must stay fully transparent. This is an atlas, NOT a finished UI or collage scene. Layout: 4 columns and 2 rows, landscape 2:1 canvas. Row-major cells, exact order:\n1 a clear little cup of pale broth with a delicate green herb sprig (gentle clean savoury);\n2 a small dark soy-sauce dipping saucer and a dried shiitake cap (deep savoury umami);\n3 a split coconut with pale cream and a few peanuts (rich creamy nutty);\n4 a little salt crystal mound beside amber honey dripping from a wooden dipper (salty sweet);\n5 a lime half beside a white sugar cube (sweet sour);\n6 a small ice cube beside a citrus slice and a mint leaf (cool sweet);\n7 two glossy red chilies, one cut open (spicy);\n8 blank. This is a set of taste cues, not finished meals."
+    },
+    {
+      "key": "textures",
+      "prompt": "Use case: stylized-concept. Asset type: ONE production sprite atlas image for a Vietnamese food-discovery slot machine web app. Create a consistent set of tactile food pictograms: simplified realistic miniature sculptures, subtly hand-painted, warm vintage bistro / burgundy-and-brass casino aesthetic. More refined and materially believable than emoji, but NOT photographs or realistic complete restaurant dishes. Clear recognisable silhouettes at 60px, broad shapes, minimal details, warm ivory ceramic with natural food colors, soft upper-left studio lighting, gentle shading, no harsh plastic gloss. The background must be genuinely transparent. No text, numbers, letters, logos, flags, frames, coins, circles, borders or visible grid lines. STRICT LAYOUT: equal-size grid cells with all objects centered at exact geometric cell centers; every object entirely inside its cell with at least 20 percent padding; never touch or overlap neighboring cells. One subject per cell, consistent optical size and camera angle. Blank final cells must stay fully transparent. This is an atlas, NOT a finished UI or collage scene. Layout: 4 columns and 3 rows, landscape 4:3 canvas. Row-major cells, exact order:\n1 two thick pale noodle strands bent into loose elastic curls (soft chewy);\n2 one tender generic juicy peach half with a few visible juice droplets (soft juicy);\n3 a golden cracker snapped into two jagged pieces with a few large crisp crumbs (crispy);\n4 a pulled white sticky-rice dough ribbon connecting two small rounded pieces (soft sticky glutinous);\n5 a small white porcelain spoon holding a perfectly smooth ivory custard dollop (silky smooth);\n6 a cut-open plain bread roll showing large airy holes in its crumb (fluffy airy);\n7 two small golden toast corners connected by three long melted cheese strands (stretchy stringy);\n8 a translucent amber jelly dome with a gently tilted wobbly silhouette (jiggly);\n9 two cucumber cross sections and a short crunchy celery stalk (firm crunchy);\n10 a spoon lifting a thick smooth pale ribbon of porridge-like puree over a tiny bowl (thick creamy);\n11 blank;\n12 blank. Show tactile structural cues clearly. Not full dishes or restaurant meal photographs."
+    },
+    {
+      "key": "styles",
+      "prompt": "Use case: stylized-concept. Asset type: ONE production sprite atlas image for a Vietnamese food-discovery slot machine web app. Create a consistent set of tactile food pictograms: simplified realistic miniature sculptures, subtly hand-painted, warm vintage bistro / burgundy-and-brass casino aesthetic. More refined and materially believable than emoji, but NOT photographs or realistic complete restaurant dishes. Clear recognisable silhouettes at 60px, broad shapes, minimal details, warm ivory ceramic with natural food colors, soft upper-left studio lighting, gentle shading, no harsh plastic gloss. The background must be genuinely transparent. No text, numbers, letters, logos, flags, frames, coins, circles, borders or visible grid lines. STRICT LAYOUT: equal-size grid cells with all objects centered at exact geometric cell centers; every object entirely inside its cell with at least 20 percent padding; never touch or overlap neighboring cells. One subject per cell, consistent optical size and camera angle. Blank final cells must stay fully transparent. This is an atlas, NOT a finished UI or collage scene. Layout: 3 columns and 2 rows, landscape 3:2 canvas. Row-major cells, exact order:\n1 a Vietnamese blue-and-white porcelain bowl, bamboo chopsticks and a small fresh herb sprig (Vietnamese dining);\n2 a clear little olive oil bottle, basil leaves and one red tomato (Italian pantry);\n3 a red-and-black lacquer bowl with a neat horizontal pair of chopsticks (Japanese dining);\n4 a plain burgundy takeout carton with simple golden fries and a plain takeaway cup, no logos (fast food);\n5 a black Korean stone bowl beside a stainless spoon and a straight pair of metal chopsticks (Korean dining);\n6 blank. These are cultural dining / pantry cues, not specific restaurant dishes. No flags, writing, map shapes or national costume."
+    }
+  ],
+  "edits": [
+    {
+      "key": "styles-v2",
+      "mode": "background-extraction",
+      "tool": "Built-in image_gen.imagegen",
+      "transparentBackground": true,
+      "prompt": "Use case: background-extraction. Edit this sprite atlas only to remove the entire dark colored gradient backdrop and background glows. Make ALL empty space between and around the objects genuinely alpha transparent, including the empty sixth cell. Keep the five subjects exactly unchanged: same positions, exact 3-column 2-row grid, same scale, same object colors, objects/material highlights, proportions and silhouettes. Preserve bowl handles, metal utensils, leaves and narrow chopsticks precisely. Do not add or move anything. No text, no framing, no extra shadows outside the objects. Preserve original 1536 by 1024 canvas. Result must be an RGBA transparent PNG, not a simulated black or checkerboard background."
+    }
+  ],
+  "assets": {
+    "groups": {
+      "src": "/illustrations/reel-groups-v1.webp",
+      "columns": 4,
+      "rows": 3,
+      "width": 1448,
+      "height": 1086
+    },
+    "ingredients": {
+      "src": "/illustrations/reel-ingredients-v1.webp",
+      "columns": 4,
+      "rows": 3,
+      "width": 1448,
+      "height": 1086
+    },
+    "flavors": {
+      "src": "/illustrations/reel-flavors-v1.webp",
+      "columns": 4,
+      "rows": 2,
+      "width": 1774,
+      "height": 887
+    },
+    "textures": {
+      "src": "/illustrations/reel-textures-v1.webp",
+      "columns": 4,
+      "rows": 3,
+      "width": 1448,
+      "height": 1086
+    },
+    "styles": {
+      "src": "/illustrations/reel-styles-v2.webp",
+      "columns": 3,
+      "rows": 2,
+      "width": 1536,
+      "height": 1024
+    }
+  },
+  "webOptimization": "cwebp quality 86, alpha quality 100; content, dimensions and transparency preserved."
+}
