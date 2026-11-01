@@ -295,6 +295,24 @@ describe("Slot machine interaction", () => {
     expect(audio.stopReel).toHaveBeenCalledTimes(5);
     expect(audio.win).toHaveBeenCalledTimes(1);
   });
+  it("lands reels in order while the others keep rolling, without replaying the landing on popup", () => {
+    render(<App />);
+    fireEvent.click(screen.getByRole("button", { name: "Kéo cần gạt để quay" }));
+    act(() => { vi.advanceTimersByTime(180); });
+    expect(document.querySelectorAll(".rolling")).toHaveLength(5);
+    act(() => { vi.advanceTimersByTime(1170); });
+    expect(document.querySelectorAll(".landed")).toHaveLength(1);
+    expect(document.querySelectorAll(".rolling")).toHaveLength(4);
+    expect(document.querySelector(".phase-spinning .landed .reel-selection")).not.toBeNull();
+    act(() => { vi.advanceTimersByTime(500); });
+    expect(document.querySelectorAll(".landed")).toHaveLength(2);
+    expect(document.querySelectorAll(".rolling")).toHaveLength(3);
+    finish();
+    expect(document.querySelectorAll(".rolling")).toHaveLength(0);
+    expect(document.querySelectorAll(".phase-spinning .landed")).toHaveLength(0);
+    expect(document.querySelector(".phase-idle")).not.toBeNull();
+    expect(screen.getByRole("dialog")).toBeTruthy();
+  });
   it("supports dragging the lever past its threshold", () => {
     render(<App />);
     const lever = screen.getByRole("button", { name: "Kéo cần gạt để quay" });

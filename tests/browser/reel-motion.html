@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Reel motion regression</title>
+  <style>
+    body { margin: 10px; background: #171a16; color: #fff0ce; font: 14px/1.5 system-ui; }
+    #report { white-space: pre-wrap; max-height: 120px; overflow: auto; }
+    iframe { border: 0; display: block; transform-origin: top left; }
+    a { color: #f0c77c; }
+  </style>
+</head>
+<body>
+  <p>Kéo cần trong máy bên dưới. Trang kiểm tra đo vị trí qua từng frame khi cuộn dừng.</p>
+  <pre id="report" role="status">Đang chờ một lượt quay…</pre>
+  <a id="download" hidden>Tải dữ liệu đo</a>
+  <iframe id="preview" src="/" title="Máy slot kiểm tra animation"></iframe>
+  <script type="module">
+    const params = new URLSearchParams(location.search);
+    const width = Number(params.get('w') || 1280);
+    const height = Number(params.get('h') || 620);
+    const frame = document.querySelector('#preview');
+    frame.style.width = `${width}px`;
+    frame.style.height = `${height}px`;
+    const fit = () => frame.style.transform = `scale(${Math.min((innerWidth - 20) / width, (innerHeight - 160) / height, 1)})`;
+    fit();
+    window.addEventListener('resize', fit);
+    let started = false, resized = false;
+    const samples = [];
+    const timer = setInterval(() => {
+      const doc = frame.contentDocument;
+      const app = doc?.querySelector('.arcade-app');
+      if (!app) return;
+      const phase = [...app.classList].find(name => name.startsWith('phase-'));
+      if (phase !== 'phase-idle') started = true;
+      if (!started) return;
+      const reels = [...doc.querySelectorAll('.reel-column')].map((column, index) => {
+        const button = column.querySelector('.reel-selection');
+        const viewport = column.querySelector('.reel-viewport').getBoundingClientRect();
+        const rect = button.getBoundingClientRect();
+        const style = frame.contentWindow.getComputedStyle(button);
+        const strip = column.querySelector('.spinning-strip');
+        return {
+          index,
+          landed: column.classList.contains('landed'),
+          rolling: column.classList.contains('rolling'),
+          centreOffset: rect.y + rect.height / 2 - viewport.y - viewport.height / 2,
+          animation: style.animationName,
+          stripTransform: strip ? frame.contentWindow.getComputedStyle(strip).transform : null,
+        };
+      });
+      samples.push({ time: performance.now(), phase, viewport: [frame.contentWindow.innerWidth, frame.contentWindow.innerHeight], reels });
+      if (params.has('resize') && !resized && samples.length >= 64) {
+        frame.style.width = '375px';
+        frame.style.height = '667px';
+        resized = true;
+      }
+      if (phase !== 'phase-idle' || !doc.querySelector('.result-dialog')) return;
+      clearInterval(timer);
+      const landed = samples.flatMap(sample => sample.reels.filter(reel => reel.landed));
+      const maxOffset = Math.max(0, ...landed.map(reel => Math.abs(reel.centreOffset)));
+      const idleAnimations = reels.map(reel => reel.animation);
+      const positions = reels.map((_, index) => new Set(samples.flatMap(sample => sample.reels.filter(reel => reel.index === index && reel.rolling).map(reel => reel.stripTransform))).size);
+      const reducedMotion = frame.contentWindow.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const passed = maxOffset <= 1 && idleAnimations.every(name => !name.includes('reel-land')) && (reducedMotion || positions.every(count => count === 0 || count > 1));
+      const report = { passed, maxLandingOffset: Math.round(maxOffset * 100) / 100, idleAnimations, rollingPositions: positions, resized, reducedMotion, samples: samples.length };
+      document.querySelector('#report').textContent = `${passed ? 'PASS' : 'FAIL'}\n${JSON.stringify(report, null, 2)}`;
+      const link = document.querySelector('#download');
+      link.href = URL.createObjectURL(new Blob([JSON.stringify({ report, samples }, null, 2)], { type: 'application/json' }));
+      link.download = 'reel-motion-report.json';
+      link.hidden = false;
+    }, 25);
+  </script>
+</body>
+</html>

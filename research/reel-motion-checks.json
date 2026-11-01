@@ -1,0 +1,221 @@
+{
+  "checkedAt": "2026-11-01",
+  "method": "Chromium renders the local app in fixed-size same-origin frames. Each spin was triggered through native Chrome UI. Browser CSS positions sampled every 25ms, including staggered stops, winning and popup.",
+  "stylesSha256": "89a4f5bd1ee73d9f5321210ab88c98dce3356a1a15aabe1cda71e67d30be4be5",
+  "cases": [
+    {
+      "case": "before-wide",
+      "viewport": [
+        1280,
+        620
+      ],
+      "observedViewports": [
+        [
+          1280,
+          620
+        ]
+      ],
+      "sampleCount": 181,
+      "maxLandingOffsetPx": 91.64,
+      "maxWinningOffsetPx": 0,
+      "distinctRollingPositions": [
+        47,
+        67,
+        87,
+        107,
+        122
+      ],
+      "animationsAfterPopup": [
+        "reel-land",
+        "reel-land",
+        "reel-land",
+        "reel-land",
+        "reel-land"
+      ]
+    },
+    {
+      "case": "after-wide",
+      "viewport": [
+        1280,
+        620
+      ],
+      "observedViewports": [
+        [
+          1280,
+          620
+        ]
+      ],
+      "sampleCount": 181,
+      "maxLandingOffsetPx": 0,
+      "maxWinningOffsetPx": 0,
+      "distinctRollingPositions": [
+        47,
+        67,
+        87,
+        107,
+        121
+      ],
+      "animationsAfterPopup": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "case": "after-phone",
+      "viewport": [
+        375,
+        667
+      ],
+      "observedViewports": [
+        [
+          375,
+          667
+        ]
+      ],
+      "sampleCount": 180,
+      "maxLandingOffsetPx": 0,
+      "maxWinningOffsetPx": 0,
+      "distinctRollingPositions": [
+        47,
+        67,
+        87,
+        107,
+        121
+      ],
+      "animationsAfterPopup": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "case": "after-small-phone",
+      "viewport": [
+        320,
+        500
+      ],
+      "observedViewports": [
+        [
+          320,
+          500
+        ]
+      ],
+      "sampleCount": 181,
+      "maxLandingOffsetPx": 0,
+      "maxWinningOffsetPx": 0,
+      "distinctRollingPositions": [
+        47,
+        67,
+        87,
+        107,
+        119
+      ],
+      "animationsAfterPopup": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "case": "after-tall-laptop",
+      "viewport": [
+        1440,
+        800
+      ],
+      "observedViewports": [
+        [
+          1440,
+          800
+        ]
+      ],
+      "sampleCount": 180,
+      "maxLandingOffsetPx": 0,
+      "maxWinningOffsetPx": 0,
+      "distinctRollingPositions": [
+        47,
+        67,
+        87,
+        107,
+        124
+      ],
+      "animationsAfterPopup": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "case": "after-landscape",
+      "viewport": [
+        568,
+        320
+      ],
+      "observedViewports": [
+        [
+          568,
+          320
+        ]
+      ],
+      "sampleCount": 181,
+      "maxLandingOffsetPx": 0,
+      "maxWinningOffsetPx": 0,
+      "distinctRollingPositions": [
+        47,
+        67,
+        87,
+        107,
+        121
+      ],
+      "animationsAfterPopup": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "case": "after-resize-during-landing",
+      "viewport": [
+        1280,
+        620
+      ],
+      "observedViewports": [
+        [
+          375,
+          667
+        ],
+        [
+          1280,
+          620
+        ]
+      ],
+      "sampleCount": 181,
+      "maxLandingOffsetPx": 0,
+      "maxWinningOffsetPx": 0,
+      "distinctRollingPositions": [
+        47,
+        67,
+        87,
+        107,
+        127
+      ],
+      "animationsAfterPopup": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

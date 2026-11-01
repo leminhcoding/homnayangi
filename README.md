@@ -65,6 +65,7 @@ Upload **dist/** lên hosting static. Với hosting build từ source: install `
 - `public/food/`: ảnh thật cho popup; `public/illustrations/`: atlas WebP nền trong suốt cho cuộn; `design/reel-illustrations/`: bản PNG gốc.
 - `research/UX-AND-DATA.md`, `research/REEL-ILLUSTRATIONS.md`, `research/STAGE-AND-CHOICES.md` và `research/RESPONSIVE.md`: cơ sở thiết kế và nguồn nghiên cứu. Prompt tạo ảnh bằng imagegen tích hợp nằm trong `research/slot-illustration-prompts.json`.
 - `tests/App.test.tsx`: dữ liệu/ảnh, bộ lọc, tính đa dạng, khóa ô, cần gạt, đổi quán và các luồng chính.
+- `tests/browser/reel-motion.html`: kiểm tra animation thực trong trình duyệt; mở qua Vite, kéo cần, chờ PASS và có thể tải dữ liệu. Thêm `?w=375&h=667` để đổi khung hoặc `&resize=1` để đổi kích thước giữa lượt quay. Kết quả sửa lỗi dừng cuộn lưu ở `research/reel-motion-checks.json`.
 
 Khi thêm món, thêm địa điểm có nguồn, ảnh đúng món và credit; gán nhóm món/nguyên liệu/vị/kết cấu/phong cách, thêm ánh xạ ảnh cho tiêu chí mới. Nếu tạo tiêu chí mới, bổ sung minh họa riêng và chạy kiểm thử/build. Không thêm lựa chọn rỗng chỉ để làm danh mục trông phong phú.
 

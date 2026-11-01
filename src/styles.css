@@ -710,7 +710,7 @@ img {
 .rolling .reel-neighbor {
   opacity: 0;
 }
-.landed .reel-selection {
+.phase-spinning .landed .reel-selection {
   animation: reel-land 0.48s cubic-bezier(0.22, 1.2, 0.36, 1);
 }
 .held .reel-selection {
@@ -1862,16 +1862,16 @@ summary::-webkit-details-marker {
 }
 @keyframes reel-land {
   0% {
-    transform: translateY(calc(-50% - 19px));
+    scale: 1 0.96;
   }
   45% {
-    transform: translateY(calc(-50% + 10px));
+    scale: 1 1.015;
   }
   72% {
-    transform: translateY(calc(-50% - 4px));
+    scale: 1 0.995;
   }
   100% {
-    transform: translateY(-50%);
+    scale: 1;
   }
 }
 @keyframes button-sheen {
