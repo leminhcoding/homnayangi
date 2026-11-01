@@ -1,0 +1,1306 @@
+{
+  "checkedAt": "2026-11-01",
+  "method": "Local Vite app in Chromium same-origin frames; actual CSS viewport sizes; long criterion labels substituted to check layout. Not physical-device testing.",
+  "responsiveCssSha256": "4b2a9fd9bd42f207573e77440807b98adca5c63a26db9964a65ad04dabec8fbb",
+  "reelColumns": [
+    "selectionWidth",
+    "selectionHeight",
+    "illustrationHeight",
+    "insideSelection",
+    "noArtworkTextOverlap",
+    "captionHeight",
+    "captionClipped"
+  ],
+  "cases": [
+    {
+      "viewport": [
+        320,
+        500
+      ],
+      "scroll": [
+        0,
+        0
+      ],
+      "cabinet": [
+        51,
+        102,
+        218,
+        388
+      ],
+      "centreError": 0,
+      "lastControlBottom": 466,
+      "handleGlowRight": 312,
+      "reels": [
+        [
+          51,
+          86,
+          24,
+          true,
+          true,
+          47,
+          false
+        ],
+        [
+          51,
+          86,
+          38,
+          true,
+          true,
+          33,
+          false
+        ],
+        [
+          51,
+          86,
+          38,
+          true,
+          true,
+          33,
+          false
+        ],
+        [
+          81,
+          56,
+          32,
+          true,
+          true,
+          43,
+          false
+        ],
+        [
+          81,
+          56,
+          32,
+          true,
+          true,
+          29,
+          false
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        360,
+        560
+      ],
+      "scroll": [
+        0,
+        0
+      ],
+      "cabinet": [
+        51,
+        102,
+        258,
+        448
+      ],
+      "centreError": 0,
+      "lastControlBottom": 526,
+      "handleGlowRight": 352,
+      "reels": [
+        [
+          64,
+          146,
+          54,
+          true,
+          true,
+          31,
+          false
+        ],
+        [
+          64,
+          146,
+          54,
+          true,
+          true,
+          16,
+          false
+        ],
+        [
+          64,
+          146,
+          54,
+          true,
+          true,
+          16,
+          false
+        ],
+        [
+          101,
+          56,
+          32,
+          true,
+          true,
+          29,
+          false
+        ],
+        [
+          101,
+          56,
+          32,
+          true,
+          true,
+          14,
+          false
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "scroll": [
+        0,
+        0
+      ],
+      "cabinet": [
+        51,
+        102,
+        218,
+        456
+      ],
+      "centreError": 0,
+      "lastControlBottom": 534,
+      "handleGlowRight": 312,
+      "reels": [
+        [
+          51,
+          154,
+          41,
+          true,
+          true,
+          47,
+          false
+        ],
+        [
+          51,
+          154,
+          41,
+          true,
+          true,
+          33,
+          false
+        ],
+        [
+          51,
+          154,
+          41,
+          true,
+          true,
+          33,
+          false
+        ],
+        [
+          81,
+          56,
+          32,
+          true,
+          true,
+          43,
+          false
+        ],
+        [
+          81,
+          56,
+          32,
+          true,
+          true,
+          29,
+          false
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        360,
+        640
+      ],
+      "scroll": [
+        0,
+        0
+      ],
+      "cabinet": [
+        51,
+        152,
+        258,
+        478
+      ],
+      "centreError": 0,
+      "lastControlBottom": 606,
+      "handleGlowRight": 352,
+      "reels": [
+        [
+          64,
+          176,
+          54,
+          true,
+          true,
+          31,
+          false
+        ],
+        [
+          64,
+          176,
+          54,
+          true,
+          true,
+          16,
+          false
+        ],
+        [
+          64,
+          176,
+          54,
+          true,
+          true,
+          16,
+          false
+        ],
+        [
+          101,
+          56,
+          32,
+          true,
+          true,
+          29,
+          false
+        ],
+        [
+          101,
+          56,
+          32,
+          true,
+          true,
+          14,
+          false
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        375,
+        667
+      ],
+      "scroll": [
+        0,
+        0
+      ],
+      "cabinet": [
+        51,
+        170,
+        273,
+        487
+      ],
+      "centreError": 0,
+      "lastControlBottom": 629,
+      "handleGlowRight": 367,
+      "reels": [
+        [
+          69,
+          103,
+          55,
+          true,
+          true,
+          33,
+          false
+        ],
+        [
+          69,
+          103,
+          55,
+          true,
+          true,
+          16,
+          false
+        ],
+        [
+          69,
+          103,
+          55,
+          true,
+          true,
+          16,
+          false
+        ],
+        [
+          109,
+          90,
+          42,
+          true,
+          true,
+          16,
+          false
+        ],
+        [
+          109,
+          90,
+          42,
+          true,
+          true,
+          16,
+          false
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        390,
+        720
+      ],
+      "scroll": [
+        0,
+        0
+      ],
+      "cabinet": [
+        51,
+        170,
+        288,
+        540
+      ],
+      "centreError": 0,
+      "lastControlBottom": 682,
+      "handleGlowRight": 382,
+      "reels": [
+        [
+          74,
+          130,
+          64,
+          true,
+          true,
+          33,
+          false
+        ],
+        [
+          74,
+          130,
+          64,
+          true,
+          true,
+          16,
+          false
+        ],
+        [
+          74,
+          130,
+          64,
+          true,
+          true,
+          16,
+          false
+        ],
+        [
+          116,
+          115,
+          64,
+          true,
+          true,
+          16,
+          false
+        ],
+        [
+          116,
+          115,
+          64,
+          true,
+          true,
+          16,
+          false
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        412,
+        760
+      ],
+      "scroll": [
+        0,
+        0
+      ],
+      "cabinet": [
+        51,
+        170,
+        310,
+        580
+      ],
+      "centreError": 0,
+      "lastControlBottom": 722,
+      "handleGlowRight": 404,
+      "reels": [
+        [
+          81,
+          150,
+          64,
+          true,
+          true,
+          33,
+          false
+        ],
+        [
+          81,
+          150,
+          64,
+          true,
+          true,
+          16,
+          false
+        ],
+        [
+          81,
+          150,
+          64,
+          true,
+          true,
+          16,
+          false
+        ],
+        [
+          127,
+          133,
+          64,
+          true,
+          true,
+          16,
+          false
+        ],
+        [
+          127,
+          133,
+          64,
+          true,
+          true,
+          16,
+          false
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        430,
+        780
+      ],
+      "scroll": [
+        0,
+        0
+      ],
+      "cabinet": [
+        51,
+        170,
+        328,
+        600
+      ],
+      "centreError": 0,
+      "lastControlBottom": 742,
+      "handleGlowRight": 422,
+      "reels": [
+        [
+          87,
+          160,
+          64,
+          true,
+          true,
+          33,
+          false
+        ],
+        [
+          87,
+          160,
+          64,
+          true,
+          true,
+          16,
+          false
+        ],
+        [
+          87,
+          160,
+          64,
+          true,
+          true,
+          16,
+          false
+        ],
+        [
+          136,
+          142,
+          64,
+          true,
+          true,
+          16,
+          false
+        ],
+        [
+          136,
+          142,
+          64,
+          true,
+          true,
+          16,
+          false
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        768,
+        900
+      ],
+      "scroll": [
+        0,
+        0
+      ],
+      "cabinet": [
+        70,
+        157,
+        628,
+        680
+      ],
+      "centreError": 0,
+      "lastControlBottom": 798,
+      "handleGlowRight": 759,
+      "reels": [
+        [
+          101,
+          387,
+          85,
+          true,
+          true,
+          36,
+          false
+        ],
+        [
+          101,
+          387,
+          85,
+          true,
+          true,
+          18,
+          false
+        ],
+        [
+          101,
+          387,
+          85,
+          true,
+          true,
+          18,
+          false
+        ],
+        [
+          101,
+          387,
+          85,
+          true,
+          true,
+          18,
+          false
+        ],
+        [
+          101,
+          387,
+          85,
+          true,
+          true,
+          18,
+          false
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        1024,
+        560
+      ],
+      "scroll": [
+        0,
+        0
+      ],
+      "cabinet": [
+        157,
+        142,
+        710,
+        369
+      ],
+      "centreError": 0,
+      "lastControlBottom": 470,
+      "handleGlowRight": 929,
+      "reels": [
+        [
+          114,
+          89,
+          32,
+          true,
+          true,
+          17,
+          false
+        ],
+        [
+          114,
+          89,
+          32,
+          true,
+          true,
+          17,
+          false
+        ],
+        [
+          114,
+          89,
+          32,
+          true,
+          true,
+          17,
+          false
+        ],
+        [
+          114,
+          89,
+          32,
+          true,
+          true,
+          17,
+          false
+        ],
+        [
+          114,
+          89,
+          32,
+          true,
+          true,
+          17,
+          false
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        1024,
+        680
+      ],
+      "scroll": [
+        0,
+        0
+      ],
+      "cabinet": [
+        157,
+        142,
+        710,
+        489
+      ],
+      "centreError": 0,
+      "lastControlBottom": 590,
+      "handleGlowRight": 929,
+      "reels": [
+        [
+          114,
+          201,
+          98,
+          true,
+          true,
+          44,
+          false
+        ],
+        [
+          114,
+          201,
+          98,
+          true,
+          true,
+          22,
+          false
+        ],
+        [
+          114,
+          201,
+          98,
+          true,
+          true,
+          22,
+          false
+        ],
+        [
+          114,
+          201,
+          98,
+          true,
+          true,
+          22,
+          false
+        ],
+        [
+          114,
+          201,
+          98,
+          true,
+          true,
+          22,
+          false
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        560
+      ],
+      "scroll": [
+        0,
+        0
+      ],
+      "cabinet": [
+        285,
+        142,
+        710,
+        369
+      ],
+      "centreError": 0,
+      "lastControlBottom": 470,
+      "handleGlowRight": 1057,
+      "reels": [
+        [
+          114,
+          89,
+          32,
+          true,
+          true,
+          17,
+          false
+        ],
+        [
+          114,
+          89,
+          32,
+          true,
+          true,
+          17,
+          false
+        ],
+        [
+          114,
+          89,
+          32,
+          true,
+          true,
+          17,
+          false
+        ],
+        [
+          114,
+          89,
+          32,
+          true,
+          true,
+          17,
+          false
+        ],
+        [
+          114,
+          89,
+          32,
+          true,
+          true,
+          17,
+          false
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        620
+      ],
+      "scroll": [
+        0,
+        0
+      ],
+      "cabinet": [
+        285,
+        142,
+        710,
+        429
+      ],
+      "centreError": 0,
+      "lastControlBottom": 530,
+      "handleGlowRight": 1057,
+      "reels": [
+        [
+          114,
+          145,
+          77,
+          true,
+          true,
+          44,
+          false
+        ],
+        [
+          114,
+          145,
+          77,
+          true,
+          true,
+          22,
+          false
+        ],
+        [
+          114,
+          145,
+          77,
+          true,
+          true,
+          22,
+          false
+        ],
+        [
+          114,
+          145,
+          77,
+          true,
+          true,
+          22,
+          false
+        ],
+        [
+          114,
+          145,
+          77,
+          true,
+          true,
+          22,
+          false
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        1366,
+        680
+      ],
+      "scroll": [
+        0,
+        0
+      ],
+      "cabinet": [
+        328,
+        142,
+        710,
+        489
+      ],
+      "centreError": 0,
+      "lastControlBottom": 590,
+      "handleGlowRight": 1100,
+      "reels": [
+        [
+          114,
+          201,
+          98,
+          true,
+          true,
+          44,
+          false
+        ],
+        [
+          114,
+          201,
+          98,
+          true,
+          true,
+          22,
+          false
+        ],
+        [
+          114,
+          201,
+          98,
+          true,
+          true,
+          22,
+          false
+        ],
+        [
+          114,
+          201,
+          98,
+          true,
+          true,
+          22,
+          false
+        ],
+        [
+          114,
+          201,
+          98,
+          true,
+          true,
+          22,
+          false
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        1440,
+        800
+      ],
+      "scroll": [
+        0,
+        0
+      ],
+      "cabinet": [
+        365,
+        142,
+        710,
+        609
+      ],
+      "centreError": 0,
+      "lastControlBottom": 710,
+      "handleGlowRight": 1137,
+      "reels": [
+        [
+          114,
+          313,
+          98,
+          true,
+          true,
+          44,
+          false
+        ],
+        [
+          114,
+          313,
+          98,
+          true,
+          true,
+          22,
+          false
+        ],
+        [
+          114,
+          313,
+          98,
+          true,
+          true,
+          22,
+          false
+        ],
+        [
+          114,
+          313,
+          98,
+          true,
+          true,
+          22,
+          false
+        ],
+        [
+          114,
+          313,
+          98,
+          true,
+          true,
+          22,
+          false
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "scroll": [
+        0,
+        0
+      ],
+      "cabinet": [
+        546,
+        247,
+        828,
+        680
+      ],
+      "centreError": 0,
+      "lastControlBottom": 886,
+      "handleGlowRight": 1430,
+      "reels": [
+        [
+          138,
+          383,
+          98,
+          true,
+          true,
+          22,
+          false
+        ],
+        [
+          138,
+          383,
+          98,
+          true,
+          true,
+          22,
+          false
+        ],
+        [
+          138,
+          383,
+          98,
+          true,
+          true,
+          22,
+          false
+        ],
+        [
+          138,
+          383,
+          98,
+          true,
+          true,
+          22,
+          false
+        ],
+        [
+          138,
+          383,
+          98,
+          true,
+          true,
+          22,
+          false
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "scroll": [
+        0,
+        0
+      ],
+      "cabinet": [
+        67,
+        99,
+        710,
+        285
+      ],
+      "centreError": 0,
+      "lastControlBottom": 364,
+      "handleGlowRight": 830,
+      "reels": [
+        [
+          122,
+          138,
+          36,
+          true,
+          true,
+          29,
+          false
+        ],
+        [
+          122,
+          138,
+          36,
+          true,
+          true,
+          14,
+          false
+        ],
+        [
+          122,
+          138,
+          36,
+          true,
+          true,
+          14,
+          false
+        ],
+        [
+          122,
+          138,
+          36,
+          true,
+          true,
+          29,
+          false
+        ],
+        [
+          122,
+          138,
+          36,
+          true,
+          true,
+          14,
+          false
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        667,
+        375
+      ],
+      "scroll": [
+        0,
+        0
+      ],
+      "cabinet": [
+        63,
+        99,
+        541,
+        270
+      ],
+      "centreError": 0,
+      "lastControlBottom": 350,
+      "handleGlowRight": 657,
+      "reels": [
+        [
+          89,
+          124,
+          36,
+          true,
+          true,
+          43,
+          false
+        ],
+        [
+          89,
+          124,
+          36,
+          true,
+          true,
+          29,
+          false
+        ],
+        [
+          89,
+          124,
+          36,
+          true,
+          true,
+          29,
+          false
+        ],
+        [
+          89,
+          124,
+          36,
+          true,
+          true,
+          43,
+          false
+        ],
+        [
+          89,
+          124,
+          36,
+          true,
+          true,
+          29,
+          false
+        ]
+      ]
+    },
+    {
+      "viewport": [
+        568,
+        320
+      ],
+      "scroll": [
+        0,
+        0
+      ],
+      "cabinet": [
+        63,
+        99,
+        442,
+        215
+      ],
+      "centreError": 0,
+      "lastControlBottom": 295,
+      "handleGlowRight": 558,
+      "reels": [
+        [
+          70,
+          71,
+          28,
+          true,
+          true,
+          53,
+          false
+        ],
+        [
+          70,
+          71,
+          28,
+          true,
+          true,
+          26,
+          false
+        ],
+        [
+          70,
+          71,
+          28,
+          true,
+          true,
+          26,
+          false
+        ],
+        [
+          70,
+          71,
+          28,
+          true,
+          true,
+          43,
+          false
+        ],
+        [
+          70,
+          71,
+          28,
+          true,
+          true,
+          29,
+          false
+        ]
+      ]
+    },
+    {
+      "safeAreaCase": true,
+      "viewport": [
+        375,
+        667
+      ],
+      "scroll": 0,
+      "lastControlBottom": 605,
+      "reels": [
+        [
+          113,
+          59,
+          true
+        ],
+        [
+          113,
+          59,
+          true
+        ],
+        [
+          113,
+          59,
+          true
+        ],
+        [
+          56,
+          32,
+          true
+        ],
+        [
+          56,
+          32,
+          true
+        ]
+      ]
+    }
+  ]
+}

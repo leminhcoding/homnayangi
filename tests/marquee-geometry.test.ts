@@ -14,6 +14,8 @@ describe("Marquee border alignment", () => {
     { width: 500, height: 117, top: 62, bottom: 10, padding: 15, lamp: 9 },
     { width: 290, height: 106, top: 44, bottom: 8, padding: 12, lamp: 8 },
     { width: 247, height: 106, top: 44, bottom: 8, padding: 12, lamp: 8 },
+    { width: 218, height: 56, top: 36, bottom: 8, padding: 10, lamp: 7 },
+    { width: 500, height: 94, top: 62, bottom: 10, padding: 17, lamp: 12 },
   ])("keeps whole lamps on the brass ring at $width px", ({ width, height, top, bottom, padding, lamp }) => {
     const points = marqueeBulbs(width, height, top, bottom, padding / 2);
     expect(points).toHaveLength(36);

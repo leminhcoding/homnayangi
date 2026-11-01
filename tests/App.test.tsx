@@ -345,6 +345,20 @@ describe("Slot machine interaction", () => {
       }),
     );
   });
+  it("opens area and budget from the compact mobile summary and persists the choice", () => {
+    render(<App />);
+    fireEvent.click(screen.getByRole("button", { name: "Đổi khu vực và giá món" }));
+    fireEvent.click(within(dialog()).getByRole("button", { name: "Chọn kiểu ăn: Ăn chơi" }));
+    fireEvent.change(within(dialog()).getByRole("combobox", { name: "Khu vực" }), { target: { value: "Ba Đình" } });
+    fireEvent.click(within(dialog()).getByRole("button", { name: "Đến 50k" }));
+    fireEvent.click(within(dialog()).getByRole("button", { name: "Áp dụng" }));
+    expect(screen.queryByRole("dialog")).toBeNull();
+    expect(screen.getByRole("button", { name: "Đổi khu vực và giá món" }).textContent).toContain("Ba Đình");
+    expect(screen.getByRole("button", { name: "Đổi khu vực và giá món" }).textContent).toContain("Đến 50k");
+    expect(JSON.parse(localStorage.getItem("angi-hanoi-filters")!)).toEqual(expect.objectContaining({ area: "Ba Đình", budget: 50000, intent: "snack" }));
+    spin();
+    expect(within(dialog()).getByRole("link", { name: "Đi ăn thôi" }).getAttribute("href")).toContain(encodeURIComponent("Hà Nội"));
+  });
   it("shows a no-match state and recovers by changing area", () => {
     render(<App />);
     fireEvent.change(

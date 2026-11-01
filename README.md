@@ -15,7 +15,8 @@ Mở địa chỉ Vite in ra, mặc định http://localhost:5173. Nếu cổng 
 
 ## Trải nghiệm hiện tại
 
-- 5 cuộn: **Nhóm món · Nguyên liệu · Vị · Kết cấu · Phong cách**. Trên điện thoại, bố cục 3 + 2 để giữ chữ dễ đọc.
+- 5 cuộn: **Nhóm món · Nguyên liệu · Vị · Kết cấu · Phong cách**. Điện thoại dọc dùng 3 + 2; khung thấp chuyển hai ô phụ sang dạng ngang gọn. Điện thoại ngang, tablet và laptop dùng một hàng khi đủ chiều rộng. Thân máy được căn giữa độc lập với cần gạt.
+- Bố cục chia chiều cao `svh` giữa thanh điều khiển và máy, có lề an toàn dưới. Khu vực/giá gộp thành một dòng mở bộ lọc trên điện thoại; màn hình rất thấp gộp thêm hoàn cảnh ăn uống. Nút hướng dẫn chuyển lên header để dành chỗ cho máy. Khung cực thấp vẫn cho cuộn trang thay vì cắt nội dung.
 - Hình trong cuộn là **43 minh họa tiêu chí riêng**, không lấy lại ảnh món ở popup. Nguyên liệu dùng vật thể riêng, vị dùng dấu gợi liên tưởng, kết cấu thể hiện cấu trúc và phong cách dùng dụng cụ/đặc trưng ẩm thực. Các hình đứng yên, đang quay và trong bảng chọn cùng một phong cách; nhãn chữ luôn hiển thị.
 - 39 món, 11 nhóm món, 10 mô tả kết cấu, 5 phong cách và 77 địa điểm/chi nhánh thuộc 51 quán/thương hiệu ở 13 khu vực Hà Nội. Các chi nhánh được tính riêng; số món không nhân theo số quán.
 - Chọn nhanh ăn no/ăn chơi, khu vực và giá; khẩu vị, bữa ăn, loại nguyên liệu muốn tránh nằm trong bộ lọc bổ sung.
@@ -51,6 +52,7 @@ Upload **dist/** lên hosting static. Với hosting build từ source: install `
 ## Sửa và mở rộng
 
 - `src/App.tsx`: giao diện, cần gạt, chuỗi animation, bộ lọc, popup và lưu cục bộ.
+- `src/responsive.css`: bố cục theo chiều rộng/chiều cao và container; điện thoại dọc/ngang, tablet và laptop.
 - `src/data.ts`: món Hà Nội ban đầu, schema, 5 cuộn, phân loại kết cấu, bộ lọc và thuật toán chọn.
 - `src/expanded-data.ts`: món bổ sung, menu chuỗi và chi nhánh đã đối chiếu.
 - `src/venue-expansion.ts`: 29 địa điểm bổ sung cùng nguồn giá/địa chỉ và lý do chọn.
@@ -61,7 +63,7 @@ Upload **dist/** lên hosting static. Với hosting build từ source: install `
 - `src/audio.ts`: âm thanh tổng hợp gốc, không dùng âm thanh của casino.
 - `src/photo-credits.json`: nguồn, tác giả và tình trạng giấy phép từng ảnh.
 - `public/food/`: ảnh thật cho popup; `public/illustrations/`: atlas WebP nền trong suốt cho cuộn; `design/reel-illustrations/`: bản PNG gốc.
-- `research/UX-AND-DATA.md`, `research/REEL-ILLUSTRATIONS.md` và `research/STAGE-AND-CHOICES.md`: cơ sở thiết kế và nguồn nghiên cứu. Prompt tạo ảnh bằng imagegen tích hợp nằm trong `research/slot-illustration-prompts.json`.
+- `research/UX-AND-DATA.md`, `research/REEL-ILLUSTRATIONS.md`, `research/STAGE-AND-CHOICES.md` và `research/RESPONSIVE.md`: cơ sở thiết kế và nguồn nghiên cứu. Prompt tạo ảnh bằng imagegen tích hợp nằm trong `research/slot-illustration-prompts.json`.
 - `tests/App.test.tsx`: dữ liệu/ảnh, bộ lọc, tính đa dạng, khóa ô, cần gạt, đổi quán và các luồng chính.
 
 Khi thêm món, thêm địa điểm có nguồn, ảnh đúng món và credit; gán nhóm món/nguyên liệu/vị/kết cấu/phong cách, thêm ánh xạ ảnh cho tiêu chí mới. Nếu tạo tiêu chí mới, bổ sung minh họa riêng và chạy kiểm thử/build. Không thêm lựa chọn rỗng chỉ để làm danh mục trông phong phú.

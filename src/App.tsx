@@ -428,6 +428,7 @@ export default function App() {
           </button>
           <button
             className="more-filters"
+            aria-label="Thêm bộ lọc"
             disabled={busy}
             onClick={() => {
               setDraft(filters);
@@ -437,6 +438,13 @@ export default function App() {
             <SlidersHorizontal size={19} />
             <span>Thêm bộ lọc</span>
             {filterCount > 0 && <b>{filterCount}</b>}
+          </button>
+          <button
+            className="utility-button mobile-help"
+            aria-label="Cách chơi và dữ liệu"
+            onClick={() => setModal("help")}
+          >
+            <Info size={20} />
           </button>
         </div>
       </header>
@@ -510,6 +518,22 @@ export default function App() {
               <ChevronDown size={14} />
             </label>
           </div>
+          <button
+            className="mobile-filter-summary"
+            aria-label="Đổi khu vực và giá món"
+            disabled={busy}
+            onClick={() => {
+              setDraft(filters);
+              setModal("settings");
+            }}
+          >
+            <MapPin size={15} />
+            <span className="filter-summary-copy">
+              <span className="compact-intent-summary">{filters.intent === "meal" ? "Ăn no" : filters.intent === "snack" ? "Ăn chơi" : "Tùy duyên"}</span>
+              <span className="filter-summary-values">{filters.area || "Cả Hà Nội"} · {filters.budget ? `Đến ${filters.budget / 1000}k` : "Mọi mức giá"}</span>
+            </span>
+            <ChevronDown size={14} />
+          </button>
         </section>
         {filterCount > 0 && (
           <div className="applied-filters" aria-label="Bộ lọc đang áp dụng">
@@ -1119,6 +1143,19 @@ export default function App() {
           onClose={() => setModal(null)}
         >
           <h2>Chọn theo gu của bạn</h2>
+          <div className="setting-block">
+            <label>Hoàn cảnh ăn uống</label>
+            <div className="choice-grid">
+              {[["all", "Tùy duyên"], ["meal", "Ăn no"], ["snack", "Ăn chơi"]].map(([value, label]) => (
+                <button
+                  key={value}
+                  aria-label={`Chọn kiểu ăn: ${label}`}
+                  className={(draft.intent || "all") === value ? "selected" : ""}
+                  onClick={() => setDraft((d) => ({ ...d, intent: value as "all" | "meal" | "snack" }))}
+                >{label}</button>
+              ))}
+            </div>
+          </div>
           <div className="setting-block">
             <label htmlFor="settings-area">Khu vực</label>
             <select

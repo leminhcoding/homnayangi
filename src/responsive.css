@@ -1,0 +1,330 @@
+/* The game shares the visible viewport; dialogs keep their own scroll area. */
+.mobile-filter-summary, .mobile-help, .compact-intent-summary { display: none; }
+
+@media (max-width: 700px) and (min-height: 400px) and (orientation: portrait) {
+  html { -webkit-text-size-adjust: 100%; }
+  .arcade-app {
+    height: 100svh;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: max(10px, env(safe-area-inset-bottom, 0px));
+    overflow: clip;
+    --reel-height: 120px;
+    --cell: 112px;
+  }
+  .app-header {
+    flex: 0 0 56px;
+    height: 56px;
+    width: 100%;
+    max-width: 544px;
+    padding: 0 16px;
+  }
+  .wordmark { height: 50px; width: 110px; }
+  .wordmark > .wordmark-top { font-size: 10px; padding-bottom: 2px; }
+  .wordmark > .wordmark-main { font-size: 30px; padding-bottom: 7px; }
+  .wordmark-bowl { width: 98px; height: 13px; bottom: 0; }
+  .header-buttons { gap: 7px; }
+  .more-filters { width: 44px; min-width: 44px; padding: 0; justify-content: center; }
+  .more-filters > span { display: none; }
+  .mobile-help { display: inline-flex; align-items: center; justify-content: center; }
+  .arcade-stage {
+    flex: 1 1 0;
+    min-height: 0;
+    width: 100%;
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    padding: 4px 12px 0;
+  }
+  .decision-bar {
+    flex: 0 0 auto;
+    margin: 0 39px 10px;
+    gap: 6px;
+  }
+  .intent-switch { padding: 2px; }
+  .intent-switch > button { min-height: 44px; height: 44px; font-size: 13px; }
+  .quick-selects { display: none; }
+  .mobile-filter-summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    min-height: 44px;
+    padding: 0 8px;
+    border: 1px solid #6f73513d;
+    border-radius: 9px;
+    background: #25291fe0;
+    font-size: 12px;
+    color: #e0d9bf;
+    white-space: nowrap;
+  }
+  .mobile-filter-summary > svg { color: #bba36c; flex: 0 0 auto; }
+  .mobile-filter-summary > svg:last-child { margin-left: auto; }
+  .filter-summary-copy { min-width: 0; overflow: hidden; }
+  .filter-summary-values { display: block; overflow: hidden; text-overflow: ellipsis; }
+  .mobile-filter-summary > span:first-of-type { margin-left: auto; }
+  .filter-summary-divider { color: #948566; }
+  .applied-filters {
+    flex: 0 0 auto;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    max-width: none;
+    margin: 0 39px 6px;
+    padding: 2px;
+    gap: 5px;
+  }
+  .applied-filters button { flex: 0 0 auto; white-space: nowrap; min-height: 30px; padding: 3px 8px; }
+  .machine-rig {
+    flex: 1 1 0;
+    min-height: 0;
+    max-width: none;
+    width: 100%;
+    margin: 0;
+    padding: 0 39px;
+    container: mobile-slot-stage / size;
+    --token-size: clamp(46px, 11cqh, 64px);
+  }
+  .slot-machine { height: 100%; display: flex; flex-direction: column; }
+  .marquee { flex: 0 0 auto; padding: 12px; border-radius: 44px 44px 9px 9px; }
+  .marquee::before { inset: 3px; border-radius: 40px 40px 6px 6px; }
+  .marquee-inner { padding: 5px 2px; border-radius: 32px 32px 3px 3px; }
+  .marquee h1 { font-size: clamp(20px, 5.4vw, 28px); line-height: 1.3; letter-spacing: -1.3px; }
+  .cabinet {
+    flex: 1 1 0;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0 4px;
+    padding: 8px 9px 0;
+  }
+  .ticker { flex: 0 0 24px; height: 24px; margin: 0 0 8px; padding: 0 5px; font-size: 11px; gap: 5px; }
+  .ticker > span:not(.ticker-dot) { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .ticker > svg, .ticker-dot { flex-shrink: 0; }
+  .reel-assembly { flex: 1 1 0; min-height: 0; padding: 0; }
+  .reel-frame { height: 100%; padding: 8px 6px; }
+  .reel-grid { height: 100%; grid-template-rows: minmax(0, 1.08fr) minmax(0, 1fr); gap: 8px 6px; }
+  .reel-unit { min-height: 0; display: grid; grid-template-rows: 18px minmax(0, 1fr) 44px; gap: 4px; }
+  .reel-unit-label { padding: 0; font-size: clamp(10px, 2.8vw, 12px); line-height: 18px; white-space: nowrap; letter-spacing: -0.25px; }
+  .arcade-stage .reel-unit .reel-viewport { container-type: size; }
+  .arcade-stage .reel-unit .reel-viewport,
+  .arcade-stage .reel-unit:nth-child(n + 4) .reel-viewport { height: 100%; min-height: 0; }
+  .arcade-stage .reel-unit .reel-selection { top: 0; height: 100%; transform: none; gap: 4px; padding: 3px 1px; }
+  .arcade-stage .reel-unit .reel-selection strong,
+  .arcade-stage .reel-unit:nth-child(n + 4) .reel-selection strong {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 1.25;
+    padding: 0 2px;
+    white-space: normal;
+    flex-shrink: 0;
+  }
+  .arcade-stage .reel-selection .photo-token { --token-size: clamp(24px, min(calc(100cqh - 48px), calc(100cqw - 8px)), 64px); max-width: calc(100% - 8px); height: auto; aspect-ratio: 1; flex-basis: auto; }
+  .reel-selection > svg { top: 5px; right: 4px; width: 8px; }
+  .arcade-stage .reel-unit .reel-neighbor { display: none; }
+  .arcade-stage .reel-unit .hold-row { margin: 0; height: 44px; }
+  .arcade-stage .reel-unit .hold-row > button { min-height: 44px; height: 44px; padding: 0 2px; font-size: 12px; gap: 4px; }
+  .cabinet-bottom { flex: 0 0 10px; height: 10px; padding: 0; }
+  .speaker-grill { display: none; }
+  .machine-base { flex: 0 0 8px; height: 8px; }
+  .lever-mount { top: calc(50% - 40px); right: 0; width: 44px; height: 185px; z-index: 4; }
+  .lever { top: 0; left: 0; right: 0; width: 44px; min-width: 44px; height: 165px; }
+  .lever-arm { left: 17px; bottom: 30px; width: 11px; height: 111px; }
+  .lever-ball { width: 34px; height: 34px; top: -17px; }
+  .lever-ball > i { width: 12px; height: 7px; left: 7px; top: 5px; }
+  .lever-socket { top: 108px; left: -5px; width: 36px; height: 58px; }
+  .lever-socket::before { width: 18px; height: 30px; top: 10px; }
+  .lever-hint { top: 174px; left: 9px; }
+  .lever-hint > svg { width: 21px; height: 21px; }
+  .phase-idle .lever:not(:disabled) .lever-ball::after { inset: -5px; animation-name: mobile-pull-invitation; box-shadow: 0 0 8px #ffb8757a, inset 0 0 6px #ffb87540; }
+  .stage-bottom { display: none; }
+  .stage-bottom > button { min-height: 30px; padding: 0 4px; font-size: 11px; }
+  .no-match { flex: 0 0 auto; padding: 6px; margin: 6px 39px 0; font-size: 12px; }
+  .no-match p { display: none; }
+
+  /* Effects use viewport space and their own edge gutter, behind the game. */
+  .stage-show { position: fixed; inset: 0; }
+  .stage-spot { top: 116px; height: calc(100svh - 116px); width: 54px; }
+  .spot-left { left: 0; }
+  .spot-right { right: 0; }
+  .spot-housing { width: 30px; height: 19px; left: 12px; top: 0; }
+  .spot-beam { top: 21px; width: 320px; left: calc(50% - 160px); height: 85svh; opacity: 0.65; }
+  .stage-floor-light { top: auto; bottom: 7%; height: 120px; }
+  .stage-footlights { top: auto; bottom: max(12px, env(safe-area-inset-bottom, 0px)); width: calc(100% - 80px); }
+  .stage-crown-glow { top: 150px; width: 100%; height: 55svh; }
+  .overlay { padding-bottom: max(10px, env(safe-area-inset-bottom, 0px)); }
+  .dialog { max-height: calc(100svh - max(20px, env(safe-area-inset-bottom, 0px))); }
+}
+
+/* When Safari chrome or a smaller screen leaves less room, keep all five criteria. */
+@container mobile-slot-stage (max-height: 480px) {
+  .reel-grid { grid-template-rows: minmax(0, 1fr) 130px; }
+  .reel-unit:nth-child(n + 4) .reel-selection { flex-direction: row; gap: 4px; padding: 2px 3px; }
+  .reel-unit:nth-child(n + 4) .reel-selection .photo-token { --token-size: 32px; width: 32px; height: 32px; flex: 0 0 32px; padding: 2px; }
+  .reel-unit:nth-child(n + 4) .photo-token-inner { border-width: 1px; }
+  .reel-unit:nth-child(n + 4) .reel-selection > svg { display: none; }
+  .reel-unit:nth-child(n + 4) .reel-selection strong { flex: 1; text-align: left; }
+  .arcade-stage .reel-unit:nth-child(n + 4) .reel-selection strong { -webkit-line-clamp: 3; font-size: 12px; line-height: 1.2; }
+}
+@container mobile-slot-stage (max-height: 410px) {
+  .reel-unit { --token-size: 36px; }
+  .reel-unit .photo-token { padding: 2px; }
+  .reel-unit .photo-token-inner { border-width: 1px; }
+}
+@media (max-width: 700px) and (min-height: 400px) and (max-height: 640px) and (orientation: portrait) {
+  .app-header { flex-basis: 48px; height: 48px; padding: 0 12px; }
+  .wordmark { height: 44px; width: 104px; }
+  .wordmark > .wordmark-top { font-size: 9px; }
+  .wordmark > .wordmark-main { font-size: 27px; }
+  .wordmark-bowl { width: 90px; height: 11px; }
+  .intent-switch { padding: 0; }
+  .decision-bar { gap: 4px; margin-bottom: 6px; }
+  .marquee { padding: 10px; border-radius: 36px 36px 8px 8px; }
+  .marquee-inner { padding: 3px 1px; border-radius: 26px 26px 3px 3px; }
+  .marquee h1 { font-size: 20px; }
+  .marquee-lights > i { width: 7px; height: 7px; }
+  .reel-unit-label { font-size: clamp(10px, 2.8vw, 12px); }
+  .ticker { position: absolute; width: 1px; height: 1px; flex-basis: 0; margin: 0; overflow: hidden; clip-path: inset(50%); }
+  .cabinet { padding-top: 6px; }
+  .reel-frame { padding-top: 6px; padding-bottom: 6px; }
+  .machine-base { flex-basis: 6px; height: 6px; }
+}
+@keyframes mobile-pull-invitation {
+  0%, 20% { opacity: 0; transform: scale(0.85); }
+  28% { opacity: 0.7; }
+  64%, 100% { opacity: 0; transform: scale(1.3); }
+}
+
+/* Centre the cabinet itself. The handle occupies an independent side gutter. */
+@media (min-width: 701px) {
+  .decision-bar, .applied-filters, .no-match { transform: none; }
+  .decision-bar { margin-left: auto; margin-right: auto; }
+  .machine-rig { padding: 0; width: min(860px, calc(100% - 112px)); margin-left: auto; margin-right: auto; }
+  .lever-mount { right: -65px; }
+  .stage-bottom { margin-right: 0; }
+}
+
+@media (min-width: 701px) and (min-height: 560px) {
+  .arcade-app { height: 100svh; min-height: 560px; display: flex; flex-direction: column; padding-bottom: 10px; }
+  .app-header { flex: 0 0 66px; height: 66px; width: 100%; }
+  .wordmark { height: 62px; }
+  .arcade-stage { flex: 1 1 0; min-height: 0; width: 100%; display: flex; flex-direction: column; padding-top: 8px; padding-bottom: 0; }
+  .decision-bar { flex: 0 0 auto; margin-bottom: 14px; }
+  .applied-filters { flex: 0 0 auto; flex-wrap: nowrap; overflow-x: auto; max-width: 100%; margin: 0 auto 8px; }
+  .applied-filters button { flex: 0 0 auto; white-space: nowrap; }
+  .machine-rig { flex: 1 1 0; min-height: 0; max-height: 680px; margin-top: auto; margin-bottom: auto; container: wide-slot-stage / size; --token-size: clamp(64px, 18cqh, 98px); }
+  .slot-machine { height: 100%; display: flex; flex-direction: column; }
+  .marquee { flex: 0 0 auto; padding: 17px; }
+  .marquee-inner { padding: 9px 6px; }
+  .marquee h1 { font-size: clamp(29px, 5.3svh, 43px); line-height: 1.3; }
+  .cabinet { flex: 1 1 0; min-height: 0; display: flex; flex-direction: column; padding: 12px 22px 0; }
+  .ticker { flex: 0 0 28px; height: 28px; margin-bottom: 10px; }
+  .reel-assembly { flex: 1 1 0; min-height: 0; padding: 0; }
+  .reel-frame { height: 100%; padding: 12px 10px; }
+  .reel-grid { height: 100%; grid-template-rows: minmax(0, 1fr); }
+  .reel-unit { min-height: 0; display: grid; grid-template-rows: 20px minmax(0, 1fr) 44px; gap: 7px; }
+  .reel-unit-label { padding: 0; line-height: 20px; }
+  .arcade-stage .reel-unit .reel-viewport { height: 100%; min-height: 0; container-type: size; }
+  .arcade-stage .reel-unit .reel-selection { top: 0; height: 100%; transform: none; }
+  .arcade-stage .reel-unit .reel-neighbor { display: none; }
+  .arcade-stage .reel-unit .hold-row { margin: 0; }
+  .arcade-stage .reel-unit .hold-row > button { height: 44px; min-height: 44px; }
+  .arcade-stage .reel-selection .photo-token { --token-size: clamp(32px, min(calc(100cqh - 68px), calc(100cqw - 12px)), 98px); max-width: calc(100% - 12px); height: auto; aspect-ratio: 1; flex-basis: auto; }
+  .cabinet-bottom { flex: 0 0 16px; padding: 0; height: 16px; }
+  .speaker-grill { display: none; }
+  .machine-base { flex: 0 0 10px; height: 10px; }
+  .lever-mount { top: calc(50% - 50px); }
+  .stage-bottom { flex: 0 0 34px; height: 34px; margin: 5px 0 0; }
+  .stage-bottom > button { min-height: 34px; }
+  .no-match { flex: 0 0 auto; margin: 8px auto 0; }
+  .stage-show { position: fixed; }
+  .stage-footlights { top: auto; bottom: 20px; }
+  .stage-floor-light { top: auto; bottom: 10%; }
+}
+
+/* Foldables and tablets keep the compact header but use one row of five reels. */
+@media (min-width: 701px) and (max-width: 1000px) and (min-height: 560px) {
+  .arcade-stage { padding-left: 18px; padding-right: 18px; }
+  .machine-rig { width: calc(100% - 104px); }
+  .reel-frame { padding: 10px 7px; }
+  .reel-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 6px; }
+  .reel-unit { grid-column: auto; }
+  .reel-unit:nth-child(n + 4) { grid-column: auto; }
+  .reel-unit-label { font-size: 12px; }
+  .arcade-stage .reel-unit .reel-selection strong { font-size: 14px; white-space: normal; line-height: 1.3; }
+}
+@container wide-slot-stage (max-height: 400px) {
+  .reel-unit { --token-size: 56px; }
+  .arcade-stage .reel-unit .reel-selection { gap: 6px; }
+  .arcade-stage .reel-unit .reel-selection strong { font-size: 13px; line-height: 1.3; }
+}
+
+/* Phones held sideways: all five reels in one row, with filters behind a summary. */
+@media (max-height: 559px) and (min-width: 500px) and (orientation: landscape) {
+  .arcade-app { height: 100svh; min-height: 320px; display: flex; flex-direction: column; padding-bottom: max(6px, env(safe-area-inset-bottom, 0px)); }
+  .app-header { flex: 0 0 46px; height: 46px; width: 100%; padding: 0 max(18px, env(safe-area-inset-left, 0px)); }
+  .wordmark { height: 42px; width: 100px; }
+  .wordmark > .wordmark-top { font-size: 9px; }
+  .wordmark > .wordmark-main { font-size: 25px; padding-bottom: 6px; }
+  .wordmark-bowl { width: 84px; height: 11px; bottom: 0; }
+  .arcade-stage { flex: 1 1 0; min-height: 0; display: flex; flex-direction: column; width: 100%; padding: 2px max(18px, env(safe-area-inset-right, 0px)) 0; }
+  .decision-bar { flex: 0 0 44px; flex-direction: row; justify-content: center; margin: 0 auto 5px; gap: 10px; transform: none; width: calc(100% - 90px); }
+  .intent-switch { flex: 1; padding: 0; }
+  .intent-switch > button { min-height: 44px; height: 44px; font-size: 12px; }
+  .quick-selects { display: none; }
+  .mobile-filter-summary { display: flex; align-items: center; gap: 6px; font-size: 12px; min-height: 44px; white-space: nowrap; }
+  .machine-rig { flex: 1 1 0; min-height: 0; width: calc(100% - 90px); padding: 0; margin: 0 auto; --token-size: 36px; --cell: 80px; }
+  .slot-machine { height: 100%; display: flex; flex-direction: column; }
+  .marquee { flex: 0 0 auto; padding: 9px; border-radius: 30px 30px 7px 7px; }
+  .marquee-inner { padding: 0; border-radius: 22px 22px 3px 3px; }
+  .marquee h1 { font-size: 21px; line-height: 1.2; }
+  .marquee-lights > i { width: 7px; height: 7px; }
+  .cabinet { flex: 1 1 0; min-height: 0; display: flex; flex-direction: column; padding: 5px 12px 0; }
+  .ticker { display: none; }
+  .reel-assembly { flex: 1 1 0; min-height: 0; padding: 0; }
+  .reel-frame { height: 100%; padding: 5px; }
+  .reel-grid { height: 100%; grid-template-columns: repeat(5, minmax(0, 1fr)); grid-template-rows: minmax(0, 1fr); gap: 6px; }
+  .reel-unit, .reel-unit:nth-child(n + 4) { grid-column: auto; min-height: 0; display: grid; grid-template-rows: 16px minmax(0, 1fr) 44px; gap: 3px; }
+  .reel-unit-label { font-size: 11px; padding: 0; line-height: 16px; }
+  .arcade-stage .reel-unit .reel-viewport, .arcade-stage .reel-unit:nth-child(n + 4) .reel-viewport { height: 100%; min-height: 0; }
+  .arcade-stage .reel-unit .reel-selection { top: 0; height: 100%; transform: none; flex-direction: row; gap: 3px; padding: 2px; }
+  .arcade-stage .reel-unit .reel-selection strong, .arcade-stage .reel-unit:nth-child(n + 4) .reel-selection strong { font-size: 12px; line-height: 1.2; white-space: normal; }
+  .arcade-stage .reel-unit .reel-neighbor { display: none; }
+  .arcade-stage .reel-unit .hold-row { margin: 0; }
+  .arcade-stage .reel-unit .hold-row > button { min-height: 44px; height: 44px; padding: 0; font-size: 11px; }
+  .cabinet-bottom { flex: 0 0 6px; height: 6px; padding: 0; }
+  .speaker-grill { display: none; }
+  .machine-base { flex: 0 0 6px; height: 6px; }
+  .lever-mount { top: calc(50% - 40px); right: -51px; width: 44px; height: 170px; }
+  .lever { left: 0; right: 0; min-width: 44px; width: 44px; height: 142px; }
+  .lever-arm { left: 17px; height: 90px; width: 10px; bottom: 20px; }
+  .lever-ball { width: 30px; height: 30px; top: -15px; }
+  .lever-socket { top: 92px; width: 32px; height: 44px; }
+  .lever-hint { display: none; }
+  .stage-bottom { display: none; }
+  .mobile-help { display: inline-flex; align-items: center; justify-content: center; }
+  .stage-bottom > button { min-height: 24px; font-size: 10px; }
+  .stage-show { position: fixed; }
+  .stage-footlights, .stage-floor-light { top: auto; bottom: 8px; }
+}
+
+@media (max-width: 360px) and (min-height: 400px) and (orientation: portrait) {
+  .arcade-stage .reel-unit:first-child .reel-selection strong { -webkit-line-clamp: 3; font-size: 12.5px; }
+  .arcade-stage .reel-unit:first-child .reel-selection .photo-token { --token-size: clamp(24px, min(calc(100cqh - 62px), calc(100cqw - 8px)), 64px); }
+}
+
+@media (max-width: 700px) and (max-height: 600px) and (orientation: portrait) {
+  .decision-bar > .intent-switch { display: none; }
+  .compact-intent-summary { display: block; color: #f0ce85; font-size: 12px; font-weight: 650; }
+  .filter-summary-copy { text-align: left; }
+  .filter-summary-values { font-size: 11px; line-height: 1.5; }
+  .mobile-filter-summary > span:first-of-type { margin-left: 0; }
+}
+@media (max-width: 600px) and (max-height: 559px) and (orientation: landscape) {
+  .arcade-stage .reel-unit .photo-token { --token-size: 28px; padding: 2px; }
+  .arcade-stage .reel-unit .reel-selection strong { font-size: 11px; }
+  .marquee h1 { font-size: 19px; }
+}
